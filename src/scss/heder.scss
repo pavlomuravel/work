@@ -1,0 +1,70 @@
+@use 'mixin' as *;
+@use"variables" as *;
+
+.header {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .header__container-logo {}
+  .header__container-nav {
+    .header__nav {
+      .header__nav-list{
+        display: flex;
+        gap: 40px;
+        li {
+          a {
+            text-decoration: none;
+            color: #424551;
+            @include primeritext;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 160%;
+
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .header__container-contakt {
+    display: flex;
+    gap: 36px;
+    padding-left: 112px;
+    .contakt__pfone {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+
+    }
+    .contakt__email {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .contakt__img {}
+    .contakt__text {
+      @include primeritext;
+      line-height: 150%;
+      vertical-align: middle;
+      h3 {
+        color: #424551;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      p {
+        color: $gray900;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+
+  }
+}

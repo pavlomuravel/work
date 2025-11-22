@@ -1,0 +1,18 @@
+@use"reset";
+@use "fonts" as *;
+@use "mixin" as *;
+@use"variables" as *;
+@use "heder";
+@use "carusel";
+@use "main";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1320px;
+}
+
+

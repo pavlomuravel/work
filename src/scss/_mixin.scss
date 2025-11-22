@@ -1,0 +1,7 @@
+@use 'fonts' as *;
+
+
+@mixin primeritext {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}

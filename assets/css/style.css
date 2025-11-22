@@ -1,0 +1,378 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section{
+  display:block;
+}
+*[hidden]{
+  display:none;
+}
+
+body{
+  line-height:1;
+}
+
+menu, ol, ul{
+  list-style:none;
+}
+
+blockquote, q{
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after{
+  content:"";
+  content:none;
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+@font-face{
+  font-family:"Ubuntu";
+  src:url("/./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Ubuntu";
+  src:url("/./assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+.header{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:60px;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.header .header__container-nav .header__nav .header__nav-list{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:40px;
+}
+.header .header__container-nav .header__nav .header__nav-list li a{
+  text-decoration:none;
+  color:#424551;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-size:16px;
+  font-weight:700;
+  line-height:160%;
+}
+.header .header__container-nav .header__nav .header__nav-list li a:hover{
+  color:#FF5A30;
+}
+.header .header__container-contakt{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:36px;
+  padding-left:112px;
+}
+.header .header__container-contakt .contakt__pfone{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:12px;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.header .header__container-contakt .contakt__email{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:12px;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.header .header__container-contakt .contakt__text{
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  line-height:150%;
+  vertical-align:middle;
+}
+.header .header__container-contakt .contakt__text h3{
+  color:#424551;
+  font-weight:700;
+  font-size:14px;
+}
+.header .header__container-contakt .contakt__text p{
+  color:#1E212C;
+  font-weight:400;
+  font-size:18px;
+}
+
+.header__container-carusel{
+  background-color:#000000;
+}
+
+.carousel{
+  margin:auto;
+}
+.carousel .carousel__container{
+  width:100%;
+  height:90vh;
+  position:relative;
+  -webkit-box-shadow:4px 4px 10px black;
+          box-shadow:4px 4px 10px black;
+  overflow:hidden;
+}
+.carousel .carousel__container .carousel__container-content{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  overflow:hidden;
+  -webkit-transition:3s ease-in-out;
+  transition:3s ease-in-out;
+  width:500%;
+  height:100%;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.carousel .carousel__container .carousel__container-content img{
+  aspect-ratio:16/9;
+  display:block;
+  width:100%;
+  height:100%;
+  -o-object-fit:cover;
+     object-fit:cover;
+  opacity:70%;
+}
+.carousel .carousel__container .carousel__container-left{
+  position:absolute;
+  top:0;
+  left:0;
+  color:white;
+  height:100%;
+  opacity:0.3;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding-inline:20px;
+}
+.carousel .carousel__container .carousel__container-left:hover{
+  background-color:black;
+}
+.carousel .carousel__container .carousel__container-left:active .carousel__container-content{
+  font-size:100px;
+}
+.carousel .carousel__container .carousel__container-left .carousel__container-content{
+  color:white;
+  font-size:80px;
+  -webkit-user-select:none;
+     -moz-user-select:none;
+      -ms-user-select:none;
+          user-select:none;
+}
+.carousel .carousel__container .carousel__container-right{
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding-inline:20px;
+  opacity:0.3;
+  z-index:2;
+}
+.carousel .carousel__container .carousel__container-right:hover{
+  background-color:black;
+}
+.carousel .carousel__container .carousel__container-right:active .carousel__container-content{
+  font-size:100px;
+}
+.carousel .carousel__container .carousel__container-right .carousel__container-content{
+  color:white;
+  font-size:80px;
+  -webkit-user-select:none;
+     -moz-user-select:none;
+      -ms-user-select:none;
+          user-select:none;
+}
+.carousel .carousel__container .carousel__container-stop{
+  opacity:0;
+}
+.carousel .carousel__container .carousel__container-stop .stop{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:10px;
+  position:absolute;
+  top:44%;
+  left:47.5%;
+  opacity:0.1;
+  -webkit-transition:0.2s;
+  transition:0.2s;
+}
+.carousel .carousel__container .carousel__container-stop .stop:hover{
+  opacity:0.5;
+}
+.carousel .carousel__container .carousel__container-stop .stop .stop-item{
+  width:20px;
+  height:65px;
+  border:1px solid black;
+  background-color:white;
+}
+.carousel .carousel__container .current{
+  position:absolute;
+  top:220px;
+  left:345px;
+  right:500px;
+  width:100%;
+  z-index:0;
+}
+.carousel .carousel__container .current .current-heder{
+  width:600px;
+}
+.carousel .carousel__container .current .current-heder h1{
+  color:white;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-size:72px;
+  line-height:130%;
+  letter-spacing:1px;
+  font-weight:700;
+}
+.carousel .carousel__container .current .current-heder h1 span{
+  color:#FF5A30;
+}
+.carousel .carousel__container .current .current-heder p{
+  color:white;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-size:20px;
+  line-height:150%;
+  font-weight:400;
+  margin-top:24px;
+  margin-bottom:61px;
+}
+.carousel .carousel__container .current .current-heder .current-heder__button button{
+  color:#ffffff;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-size:16px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+}
+.carousel .carousel__container .current .current-heder .current-heder__button .button__left{
+  width:278px;
+  height:52px;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  background:transparent;
+}
+.carousel .carousel__container .current .current-heder .current-heder__button .button__left:hover{
+  -webkit-box-shadow:4px 4px 10px black;
+          box-shadow:4px 4px 10px black;
+}
+.carousel .carousel__container .current .current-heder .current-heder__button .button__ring{
+  width:224px;
+  height:52px;
+  border-radius:4px;
+  background-color:#FF5A30;
+  border:1px solid #FF5A30;
+  margin-left:24px;
+}
+.carousel .carousel__container .current .current-heder .current-heder__button .button__ring:hover{
+  -webkit-box-shadow:4px 4px 10px black;
+          box-shadow:4px 4px 10px black;
+}
+.carousel .carousel__container .current .current__button{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:10px;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  margin-top:179px;
+}
+.carousel .carousel__container .current .current__button .current__button-item{
+  width:178px;
+  height:2px;
+  border:2px solid white;
+  background-color:#ffffff;
+  opacity:30%;
+}
+.carousel .carousel__container .current .current__button .current__button-item:hover{
+  background-color:black;
+  -webkit-box-shadow:2px 2px 5px white;
+          box-shadow:2px 2px 5px white;
+  height:10px;
+}
+.carousel .carousel__container .current .current__button .current__button-item h3{
+  color:#ffffff;
+  margin-top:-42px;
+  font-size:28px;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-weight:700;
+}
+.carousel .carousel__container .current .current__button .active{
+  width:178px;
+  height:10px;
+  opacity:100%;
+}
+
+.main__container-construction{
+  height:800px;
+}
+
+*{
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}
+
+body{
+  min-width:1320px;
+}
