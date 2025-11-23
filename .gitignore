@@ -5,7 +5,7 @@ node_modules/
 README.md
 package-lock.json
 package.json
-gulpfile.js
+gulpfile.cjs
 CMD.md
 .prettierrc
 .eslintignore

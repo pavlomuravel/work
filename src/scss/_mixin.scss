@@ -1,7 +1,16 @@
 @use 'fonts' as *;
+@use"variables" as *;
 
 
 @mixin primeritext {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
+}
+
+@mixin title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  color: $gray900;
 }
