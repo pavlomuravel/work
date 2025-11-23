@@ -397,33 +397,121 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: black solid 1px;
     .container-projects__title {
       display: flex;
       h3 {
         @include title;
+        width: 702px;
       }
       .slider__controls {
         display: flex;
+        align-items: flex-end;
+        margin-left: 453px;
 
         .slider__controls-left {
-          width: 24px;
-          height: 24px;
-          border: black solid 1px;
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 100%;
+          &:hover {
+            background-color: $primary;
+            path {
+              fill: #FFFFFF;
+            }
+          }
         }
         .slider__controls-right {
-          width: 24px;
-          height: 24px;
-          border: black solid 1px;
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 100%;
+          &:hover {
+            background-color: $primary;
+            path {
+              fill: #FFFFFF;
+            }
+          }
+        }
+        .slider__controls-aktiv {
+          background-color: $primary;
+          path {
+            fill: #FFFFFF;
+          }
+          &:hover {
+            path {
+              fill: #424551;
+            }
+          }
         }
       }
     }
     .container-projects__item {
+      display: flex;
+      margin-top: 60px;
+      gap: 30px;
       .projects__item {
-        .projects__item-img {}
-        .projects__item-title {}
-        .projects__item-text {}
-        .projects__item-button {}
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow:
+                0px 4px 4px -4px #1E212C08,
+                0px 12px 10px -6px #9A9CA50A,
+                0px 30px 24px -10px #9A9CA50D,
+                0px 80px 80px -20px #9A9CA514;
+        .projects__item-img {
+          width: 390px;
+          height: 345px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .projects__item-title {
+          margin-top: 16px;
+          h3 {
+            @include title;
+            font-size: 20px;
+          }
+        }
+        .projects__item-text {
+          p {
+            margin-top: 4px;
+            @include text;
+          }
+        }
+        .projects__item-button {
+          margin-top: 24px;
+          margin-bottom: 24px;
+          button {
+            color: $primary;
+            padding-inline: 32px;
+            height: 42px;
+            background-color: #FFFFFF;
+            border: 1px solid $primary;
+            border-radius: 4px;
+            &:hover {
+              color: #FFFFFF;
+              background-color: $primary;
+
+            }
+          }
+        }
+      }
+      .projects__item-aktiv {
+        &:hover {
+          .projects__item-img {
+            height: 277px;
+          }
+          .projects__item-button {
+            display: none;
+          }
+        }
       }
     }
     .container-projects__futer {
