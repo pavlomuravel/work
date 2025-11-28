@@ -9,9 +9,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  .header__container-logo {}
+  .header__container-logo {
+    grid-area: header__logo;
+  }
   .header__container-nav {
     .header__nav {
+      grid-area: header__nav;
       .header__nav-list{
         display: flex;
         gap: 40px;
@@ -34,13 +37,16 @@
     }
   }
   .header__container-contakt {
+    grid-area: header__contakt;
     display: flex;
     gap: 36px;
     padding-left: 112px;
+
     .contakt__pfone {
       display: flex;
       gap: 12px;
       align-items: center;
+
 
     }
     .contakt__email {
@@ -65,6 +71,33 @@
         font-size: 18px;
       }
     }
+
+  }
+}
+.header-grey {
+  background-color: #F4F5F6;
+  padding-inline: 18%;
+  display: grid;
+  grid-template-columns: 0.20fr 0.60fr 0.50fr ;
+  column-gap: 60px;
+  grid-template-rows: 88px 512px;
+  grid-template-areas:
+    " header__logo header__nav header__contakt "
+    " header__services header__services header__services ";
+  background-image: url("/assets/images/background_2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 0;
+  min-width: 1230px;
+  margin: 0 auto;
+  .header__container-contakt {
+    padding-left: 0;
+  }
+
+  .header__container-services {
+    grid-area: header__services;
 
   }
 }

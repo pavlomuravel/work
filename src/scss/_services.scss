@@ -1,0 +1,16 @@
+@use 'mixin' as *;
+@use"variables" as *;
+
+main {
+  .header__container-services {
+    height: 512px;
+
+    }
+    .container-services__nav {
+      .active {}
+    }
+    .container-services__title {}
+    .container-services__text {}
+
+}
+

@@ -56,7 +56,7 @@ function animateCircle(item) {
 }
 
 // ---------------------------
-// 🔥 Scroll Observer
+// Scroll Observer
 // ---------------------------
 const observer = new IntersectionObserver(
   (entries) => {
