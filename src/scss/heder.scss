@@ -76,28 +76,69 @@
 }
 .header-grey {
   background-color: #F4F5F6;
-  padding-inline: 18%;
   display: grid;
-  grid-template-columns: 0.20fr 0.60fr 0.50fr ;
-  column-gap: 60px;
+  grid-template-columns:130px 447px 533px;
   grid-template-rows: 88px 512px;
   grid-template-areas:
     " header__logo header__nav header__contakt "
     " header__services header__services header__services ";
+  column-gap: 60px;
+  justify-content: center;
+  row-gap: 0;
   background-image: url("/assets/images/background_2.png");
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 0;
   padding-bottom: 0;
-  gap: 0;
   min-width: 1230px;
   margin: 0 auto;
   .header__container-contakt {
-    padding-left: 0;
+    padding-left: 112px;
+
+
   }
 
   .header__container-services {
     grid-area: header__services;
+    width: 600px;
+    padding-bottom: 179px;
+    .container-services__nav {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      .services__nav-homepage a {
+        @include text;
+        text-decoration: none;
+        color: #424551;
+        &:hover {
+          color: $primary;
+        }
+      }
+      .services__nav-services a {
+        @include text;
+        text-decoration: none;
+        color: #424551;
+      }
+      .active a{
+        color: #9A9CA5;
+
+      }
+    }
+    .container-services__title {
+      margin-top: 40px;
+      h1 {
+        @include title;
+        font-size: 72px;
+      }
+    }
+    .container-services__text {
+      margin-top: 24px;
+      p {
+        @include text;
+        color: #787A80;
+        font-size: 20px;
+      }
+    }
 
   }
 }
