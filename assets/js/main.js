@@ -70,9 +70,9 @@ const observer = new IntersectionObserver(
   { threshold: 0.5 } // коли видно 50%
 );
 
-// ---------------------------
-// Підключаємо всі елементи
-// ---------------------------
+
 document.querySelectorAll(".progress__item").forEach((item) => {
   observer.observe(item);
 });
+
+

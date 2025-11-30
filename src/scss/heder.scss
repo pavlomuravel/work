@@ -74,7 +74,7 @@
 
   }
 }
-.header-grey {
+.header-grey__service {
   background-color: #F4F5F6;
   display: grid;
   grid-template-columns:130px 447px 533px;
@@ -100,7 +100,7 @@
 
   .header__container-services {
     grid-area: header__services;
-    width: 600px;
+    width: 650px;
     padding-bottom: 179px;
     .container-services__nav {
       display: flex;
@@ -118,9 +118,15 @@
         @include text;
         text-decoration: none;
         color: #424551;
+        &:hover {
+          color: $primary;
+        }
       }
       .active a{
         color: #9A9CA5;
+        &:hover {
+          color: #9A9CA5;
+        }
 
       }
     }
@@ -142,3 +148,28 @@
 
   }
 }
+.service-item {
+  position: relative;
+  background-image: none;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    background-image: url("/assets/images/bg_2.png");
+    transform: rotate(180deg);
+    position: absolute;
+    top: -194px;
+    right: -159px;
+    width: 1103px;
+    height: 1088px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 20%;
+  }
+
+}
+
+
