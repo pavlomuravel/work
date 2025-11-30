@@ -507,9 +507,30 @@
             }
           }
         }
+        .item_1 {
+          background-image: url("/assets/images/projekt_1.png");
+        }
+        .item_2 {
+          background-image: url("/assets/images/projekt_2.png");
+        }
+        .item_3 {
+          background-image: url("/assets/images/projekt_3.png");
+        }
+        .item_4 {
+          background-image: url("/assets/images/projekt_4.png");
+        }
+        .item_5 {
+          background-image: url("/assets/images/projekt_5.png");
+        }
+        .item_6 {
+          background-image: url("/assets/images/projekt_6.png");
+        }
+
+
         .projects__item-img {
           width: 390px;
           height: 345px;
+
 
           img {
             width: 100%;

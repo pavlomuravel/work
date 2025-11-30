@@ -1096,6 +1096,24 @@ table{
   -webkit-transition:300ms;
   transition:300ms;
 }
+.main__container-projects .container-projects .container-projects__item .projects__item .item_1{
+  background-image:url(../images/projekt_1.png);
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_2{
+  background-image:url(../images/projekt_2.png);
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_3{
+  background-image:url(../images/projekt_3.png);
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_4{
+  background-image:url(../images/projekt_4.png);
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_5{
+  background-image:url(../images/projekt_5.png);
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_6{
+  background-image:url(../images/projekt_6.png);
+}
 .main__container-projects .container-projects .container-projects__item .projects__item .projects__item-img{
   width:390px;
   height:345px;
