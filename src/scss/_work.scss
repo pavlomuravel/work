@@ -1,0 +1,254 @@
+@use 'mixin' as *;
+@use"variables" as *;
+
+
+.main-content__work {
+
+  .main-content__projekt {
+    position: absolute;
+    top: 525px;
+    left: 15%;
+    right: 15%;
+    .content__projekt {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      .content__projekt-item {
+        width: 230px;
+        min-width: 180px;
+        height: 154px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        box-shadow:
+                0px 4px 4px -4px  #1E212C0D,
+                0px 12px 10px -6px #9A9CA514,
+                0px 30px 24px -10px #9A9CA51A,
+                0px 80px 80px -20px #9A9CA529;
+        background-color: #FFFFFF;
+
+        &:hover {
+          background-color: $primary;
+          .projekt-item__img svg {
+            path {
+              fill: #FFFFFF;
+            }
+
+          }
+          .projekt-item__title {
+            p {
+              color: #fff;
+            }
+          }
+        }
+        .projekt-item__img {
+          svg {
+            width: 48px;
+            height: 48px;
+          }
+        }
+        .projekt-item__title {
+          p {
+            @include title;
+            font-size: 16px;
+            color: #9A9CA5;
+
+          }
+        }
+      }
+      .projekt-item__active {
+
+        background-color: $primary;
+        .projekt-item__img svg {
+          path {
+            fill: #FFFFFF;
+          }
+
+        }
+        .projekt-item__title {
+          p {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .container-projects__item {
+    display: grid;
+    grid-template-areas:
+    " projekt-item_4 projekt-item_7 projekt-item_8 "
+    " projekt-item_2 projekt-item_1 projekt-item_6 "
+    " projekt-item_5 projekt-item_3 projekt-item_9 "
+    " projects__button projects__button projects__button ";
+
+    grid-template-columns: 390px 390px 390px ;
+    grid-template-rows: 440px 440px 440px 150px;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 30px;
+
+    .projects__item {
+      overflow: hidden;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow:
+      0px 4px 4px -4px  #1E212C0D,
+      0px 12px 10px -6px #9A9CA514,
+      0px 30px 24px -10px #9A9CA51A,
+      0px 80px 80px -20px #9A9CA529;
+
+      &:hover {
+        .projects__item-img {
+          height: 277px;
+          transition: 300ms;
+        }
+        .projects__item-button {
+          button {
+            opacity: 100%;
+            transition: 300ms;
+          }
+        }
+      }
+      .item_1 {
+        background-image: url("/assets/images/projekt_1.png");
+        grid-area: projekt-item_1;
+      }
+      .item_2 {
+        background-image: url("/assets/images/projekt_2.png");
+        grid-area: projekt-item_2;
+      }
+      .item_3 {
+        background-image: url("/assets/images/projekt_3.png");
+        grid-area: projekt-item_3;
+      }
+      .item_4 {
+        background-image: url("/assets/images/projekt_4.png");
+        grid-area: projekt-item_4;
+      }
+      .item_5 {
+        background-image: url("/assets/images/projekt_5.png");
+        grid-area: projekt-item_5;
+      }
+      .item_6 {
+        background-image: url("/assets/images/projekt_6.png");
+        grid-area: projekt-item_6;
+      }
+      .item_7 {
+        background-image: url("/assets/images/projekt_7.png");
+        grid-area: projekt-item_7;
+      }
+      .item_8 {
+        background-image: url("/assets/images/projekt_8.png");
+        grid-area: projekt-item_8;
+      }
+      .item_9 {
+        background-image: url("/assets/images/projekt_9.png");
+        grid-area: projekt-item_9;
+      }
+
+
+
+      .projects__item-img {
+        width: 390px;
+        height: 345px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .projects__item-title {
+        margin-top: 16px;
+        h3 {
+          @include title;
+          font-size: 20px;
+        }
+      }
+      .projects__item-text {
+        p {
+          margin-top: 4px;
+          @include text;
+        }
+      }
+      .projects__item-button {
+        margin-top: 24px;
+
+
+        button {
+          color: $primary;
+          padding-inline: 32px;
+          height: 42px;
+          background-color: #FFFFFF;
+          border: 1px solid $primary;
+          border-radius: 4px;
+          opacity: 0;
+          &:hover {
+            color: #FFFFFF;
+            background-color: $primary;
+
+
+
+          }
+        }
+      }
+
+
+    }
+    .projects__button {
+      grid-area: projects__button;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      button {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        @include title;
+        font-size: 16px;
+        color: #424551;
+        border: none;
+        background-color: #FFFFFF;
+      }
+    }
+
+  }
+  .container-partners__coment {
+    padding-top: 80px;
+    height: 570px;
+    background-color: #F4F5F6;
+    display: flex;
+    justify-content: center;
+  }
+  .container-partners__heder {
+    padding-top: 180px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .partners__heder-title {
+      h3 {
+        @include title;
+      }
+    }
+    .partners__heder-client {
+      margin-top: 60px  ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 102px;
+      .heder-client__logo svg{
+        width: 120px;
+        height: 64px;
+      }
+    }
+  }
+}

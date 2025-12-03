@@ -163,7 +163,6 @@ table{
   padding-top:0;
   padding-bottom:0;
   min-width:1230px;
-  max-width:1920px;
   margin:0 auto;
   overflow:hidden;
 }
@@ -260,6 +259,12 @@ table{
   pointer-events:none;
   z-index:0;
   opacity:20%;
+}
+
+.work-item{
+  position:relative;
+  background-image:url(../images/bg_3.png);
+  overflow:hidden;
 }
 
 .header__container-carusel{
@@ -3082,6 +3087,284 @@ table{
   display:flex;
   gap:120px;
   margin-top:60px;
+}
+
+.main-content__work .main-content__projekt{
+  position:absolute;
+  top:525px;
+  left:15%;
+  right:15%;
+}
+.main-content__work .main-content__projekt .content__projekt{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:20px;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item{
+  width:230px;
+  min-width:180px;
+  height:154px;
+  border-radius:4px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:16px;
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+  background-color:#FFFFFF;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover{
+  background-color:#FF5A30;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover .projekt-item__img svg path{
+  fill:#FFFFFF;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover .projekt-item__title p{
+  color:#fff;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item .projekt-item__img svg{
+  width:48px;
+  height:48px;
+}
+.main-content__work .main-content__projekt .content__projekt .content__projekt-item .projekt-item__title p{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:16px;
+  color:#9A9CA5;
+}
+.main-content__work .main-content__projekt .content__projekt .projekt-item__active{
+  background-color:#FF5A30;
+}
+.main-content__work .main-content__projekt .content__projekt .projekt-item__active .projekt-item__img svg path{
+  fill:#FFFFFF;
+}
+.main-content__work .main-content__projekt .content__projekt .projekt-item__active .projekt-item__title p{
+  color:#fff;
+}
+.main-content__work .container-projects__item{
+  display:grid;
+  grid-template-areas:" projekt-item_4 projekt-item_7 projekt-item_8 " " projekt-item_2 projekt-item_1 projekt-item_6 " " projekt-item_5 projekt-item_3 projekt-item_9 " " projects__button projects__button projects__button ";
+  grid-template-columns:390px 390px 390px;
+  grid-template-rows:440px 440px 440px 150px;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  margin-top:200px;
+  gap:30px;
+}
+.main-content__work .container-projects__item .projects__item{
+  overflow:hidden;
+  border-radius:4px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:start;
+      -ms-flex-pack:start;
+          justify-content:flex-start;
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+}
+.main-content__work .container-projects__item .projects__item:hover .projects__item-img{
+  height:277px;
+  -webkit-transition:300ms;
+  transition:300ms;
+}
+.main-content__work .container-projects__item .projects__item:hover .projects__item-button button{
+  opacity:100%;
+  -webkit-transition:300ms;
+  transition:300ms;
+}
+.main-content__work .container-projects__item .projects__item .item_1{
+  background-image:url(../images/projekt_1.png);
+  grid-area:projekt-item_1;
+}
+.main-content__work .container-projects__item .projects__item .item_2{
+  background-image:url(../images/projekt_2.png);
+  grid-area:projekt-item_2;
+}
+.main-content__work .container-projects__item .projects__item .item_3{
+  background-image:url(../images/projekt_3.png);
+  grid-area:projekt-item_3;
+}
+.main-content__work .container-projects__item .projects__item .item_4{
+  background-image:url(../images/projekt_4.png);
+  grid-area:projekt-item_4;
+}
+.main-content__work .container-projects__item .projects__item .item_5{
+  background-image:url(../images/projekt_5.png);
+  grid-area:projekt-item_5;
+}
+.main-content__work .container-projects__item .projects__item .item_6{
+  background-image:url(../images/projekt_6.png);
+  grid-area:projekt-item_6;
+}
+.main-content__work .container-projects__item .projects__item .item_7{
+  background-image:url(../images/projekt_7.png);
+  grid-area:projekt-item_7;
+}
+.main-content__work .container-projects__item .projects__item .item_8{
+  background-image:url(../images/projekt_8.png);
+  grid-area:projekt-item_8;
+}
+.main-content__work .container-projects__item .projects__item .item_9{
+  background-image:url(../images/projekt_9.png);
+  grid-area:projekt-item_9;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-img{
+  width:390px;
+  height:345px;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-img img{
+  width:100%;
+  height:100%;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-title{
+  margin-top:16px;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-title h3{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:20px;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-text p{
+  margin-top:4px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-button{
+  margin-top:24px;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-button button{
+  color:#FF5A30;
+  padding-inline:32px;
+  height:42px;
+  background-color:#FFFFFF;
+  border:1px solid #FF5A30;
+  border-radius:4px;
+  opacity:0;
+}
+.main-content__work .container-projects__item .projects__item .projects__item-button button:hover{
+  color:#FFFFFF;
+  background-color:#FF5A30;
+}
+.main-content__work .container-projects__item .projects__button{
+  grid-area:projects__button;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.main-content__work .container-projects__item .projects__button button{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:16px;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:16px;
+  color:#424551;
+  border:none;
+  background-color:#FFFFFF;
+}
+.main-content__work .container-partners__coment{
+  padding-top:80px;
+  height:570px;
+  background-color:#F4F5F6;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+}
+.main-content__work .container-partners__heder{
+  padding-top:180px;
+  padding-bottom:120px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.main-content__work .container-partners__heder .partners__heder-title h3{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__work .container-partners__heder .partners__heder-client{
+  margin-top:60px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:102px;
+}
+.main-content__work .container-partners__heder .partners__heder-client .heder-client__logo svg{
+  width:120px;
+  height:64px;
 }
 
 .footer__conteiner .footer__conteiner-application{
