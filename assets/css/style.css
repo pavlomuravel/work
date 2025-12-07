@@ -261,10 +261,31 @@ table{
   opacity:20%;
 }
 
-.work-item{
+.header-work{
   position:relative;
   background-image:url(../images/bg_3.png);
   overflow:hidden;
+}
+
+.header-work-item{
+  background-image:none;
+  position:relative;
+}
+.header-work-item::before{
+  content:"";
+  background-image:url(../images/bg_2.png);
+  position:absolute;
+  top:48px;
+  right:-282px;
+  width:854px;
+  height:854px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-transform:rotate(180deg);
+      -ms-transform:rotate(180deg);
+          transform:rotate(180deg);
+  opacity:12%;
+  z-index:1;
 }
 
 .header__container-carusel{

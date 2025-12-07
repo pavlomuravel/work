@@ -172,12 +172,30 @@
   }
 
 }
-.work-item {
+.header-work {
   position: relative;
   background-image: url("/assets/images/bg_3.png");;
   overflow: hidden;
 
 
+}
+.header-work-item {
+  background-image: none;
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url("/assets/images/bg_2.png");
+    position: absolute;
+    top: 48px;
+    right: -282px;
+    width: 854px;
+    height: 854px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+    opacity: 12%;
+    z-index: 1;
+  }
 }
 
 
