@@ -1,2 +1,93 @@
 @use 'mixin' as *;
 @use"variables" as *;
+
+.main-content__work-item {
+  .content__work-item__project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+    padding-bottom: 120px;
+    .work-item__project-text {
+      width: 600px;
+      .project-text__title {
+        margin-bottom: 20px;
+        h3 {
+          @include title;
+        }
+      }
+      .project-text__text {
+        p {
+          margin-top: 20px;
+          @include text;
+          font-size: 18px;
+          color: #424551;
+        }
+      }
+    }
+    .work-item__project-informacion {
+      padding-inline: 60px;
+      padding-block: 40px;
+      border-radius: 4px;
+      box-shadow:
+              0px 4px 4px -4px  #1E212C0D,
+              0px 12px 10px -6px #9A9CA514,
+              0px 30px 24px -10px #9A9CA51A,
+              0px 80px 80px -20px #9A9CA529;
+      .project-informacion__item {
+        display: flex;
+        gap: 32px;
+        margin-top: 10px;
+        h3 {
+          width: 98px;
+          @include title;
+          font-size: 16px;
+        }
+        p {
+          @include text;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .content__work-item__constructive {
+    height: 570px;
+    background-color: #F4F5F6;
+    display: flex;
+    gap: 133px;
+    justify-content: center;
+    margin-bottom: 60px;
+    .work-item__constructive-img {
+      margin-top: 80px;
+      width: 495px;
+      height: 550px;
+      background-image: url("/./assets/images/constructive_decisions.png");
+    }
+    .work-item__constructive-text {
+      margin-top: 80px;
+      .constructive-text__title {
+        h2 {
+          @include title;
+        }
+      }
+      .constructive-text__item {
+        margin-top: 40px;
+        .text__item {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-top: 20px;
+          svg {
+            width: 20px;
+            height: 20px;
+          }
+          p {
+            @include text;
+            font-size: 16px;
+            color: #424551;
+          }
+        }
+      }
+    }
+  }
+}

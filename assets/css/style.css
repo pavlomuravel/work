@@ -1383,21 +1383,39 @@ table{
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_1{
   background-image:url(../images/projekt_1.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_2{
   background-image:url(../images/projekt_2.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_3{
   background-image:url(../images/projekt_3.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_4{
   background-image:url(../images/projekt_4.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_5{
   background-image:url(../images/projekt_5.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .item_6{
   background-image:url(../images/projekt_6.png);
+  background-position:center;
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_7{
+  background-image:url(../images/projekt_7.png);
+  background-position:center;
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_8{
+  background-image:url(../images/projekt_8.png);
+  background-position:center;
+}
+.main__container-projects .container-projects .container-projects__item .projects__item .item_9{
+  background-image:url(../images/projekt_9.png);
+  background-position:center;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .projects__item-img{
   width:390px;
@@ -3643,6 +3661,128 @@ table{
 .main-content__work .container-partners__heder .partners__heder-client .heder-client__logo svg{
   width:120px;
   height:64px;
+}
+
+.main-content__work-item .content__work-item__project{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:135px;
+  padding-bottom:120px;
+}
+.main-content__work-item .content__work-item__project .work-item__project-text{
+  width:600px;
+}
+.main-content__work-item .content__work-item__project .work-item__project-text .project-text__title{
+  margin-bottom:20px;
+}
+.main-content__work-item .content__work-item__project .work-item__project-text .project-text__title h3{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__work-item .content__work-item__project .work-item__project-text .project-text__text p{
+  margin-top:20px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:18px;
+  color:#424551;
+}
+.main-content__work-item .content__work-item__project .work-item__project-informacion{
+  padding-inline:60px;
+  padding-block:40px;
+  border-radius:4px;
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+}
+.main-content__work-item .content__work-item__project .work-item__project-informacion .project-informacion__item{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:32px;
+  margin-top:10px;
+}
+.main-content__work-item .content__work-item__project .work-item__project-informacion .project-informacion__item h3{
+  width:98px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:16px;
+}
+.main-content__work-item .content__work-item__project .work-item__project-informacion .project-informacion__item p{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:16px;
+}
+.main-content__work-item .content__work-item__constructive{
+  height:570px;
+  background-color:#F4F5F6;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:133px;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  margin-bottom:60px;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-img{
+  margin-top:80px;
+  width:495px;
+  height:550px;
+  background-image:url(../images/constructive_decisions.png);
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text{
+  margin-top:80px;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text .constructive-text__title h2{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text .constructive-text__item{
+  margin-top:40px;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text .constructive-text__item .text__item{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:16px;
+  margin-top:20px;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text .constructive-text__item .text__item svg{
+  width:20px;
+  height:20px;
+}
+.main-content__work-item .content__work-item__constructive .work-item__constructive-text .constructive-text__item .text__item p{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:16px;
+  color:#424551;
 }
 
 .footer__conteiner .footer__conteiner-application{
