@@ -180,8 +180,28 @@
 
 }
 .header-work-item {
+  background-color: #FFFFFF;
   background-image: none;
   position: relative;
+  height: 100%;
+  margin-bottom: 100px;
+  grid-template-columns:130px 447px 533px;
+  grid-template-rows: 88px 218px 620px;
+  grid-template-areas:
+    " header__logo header__nav header__contakt "
+    " header__services header__services header__services "
+    " header__carusel header__carusel header__carusel";
+  .header__container-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+  .header__container-carusel2 {
+    grid-area: header__carusel;
+  }
+
+
   &::before {
     content: "";
     background-image: url("/assets/images/bg_2.png");
@@ -197,5 +217,6 @@
     z-index: 1;
   }
 }
+
 
 

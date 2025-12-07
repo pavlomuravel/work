@@ -70,7 +70,7 @@ export class Slider {
       console.error(`Element #imgContainer not found in #${this.sliderId}`);
       return;
     }
-    imgContainer.innerHTML = this.images.map(img => `<img src="./assets/images/${img}" alt="#">`).join('');
+    imgContainer.innerHTML = this.images.map(img => `<img src="/assets/images/${img}" alt="#">`).join('');
   }
 
   generateDots() {
