@@ -310,6 +310,16 @@ table{
   z-index:1;
 }
 
+.about_us{
+  background-image:url(../images/background_3.png);
+  position:relative;
+  z-index:4;
+  opacity:100%;
+}
+.about_us::before{
+  opacity:5%;
+}
+
 .header__container-carusel{
   background-color:#000000;
 }
@@ -3785,6 +3795,128 @@ table{
   color:#424551;
 }
 
+.main-content .main-content-statistic{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:120px;
+}
+.main-content .main-content-statistic .content-statistic-item{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:86px;
+}
+.main-content .main-content-statistic .content-statistic-item .content-statistic__item{
+  width:262px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:8px;
+}
+.main-content .main-content-statistic .content-statistic-item .content-statistic__item .statistic__item-img svg{
+  width:48px;
+  height:48px;
+}
+.main-content .main-content-statistic .content-statistic-item .content-statistic__item .statistic__item-procent{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:46px;
+  color:#FF5A30;
+  margin-top:12px;
+}
+.main-content .main-content-statistic .content-statistic-item .content-statistic__item .statistic__item-text{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#1E212C;
+  text-align:center;
+}
+.main-content .main-content-statistic .content-statistic-citats{
+  width:1230px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  border:black 1px solid;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__img{
+  width:525px;
+  height:580px;
+  background-image:url(../images/man.png);
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text{
+  width:735px;
+  padding-top:80px;
+  padding-right:105px;
+  padding-left:77px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-top{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:30px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-top .text-top__img svg{
+  width:28px;
+  height:20px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-top .text-top__text p{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:20px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-top .text-top__text .margin{
+  margin-top:40px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-button{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-button .text-button__name h3{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:16px;
+}
+.main-content .main-content-statistic .content-statistic-citats .statistic-citats__text .citats__text-button .text-button__name p{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#787A80;
+}
 .footer__conteiner .footer__conteiner-application{
   height:826px;
   background-image:url(../images/footer.png);

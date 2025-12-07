@@ -217,6 +217,15 @@
     z-index: 1;
   }
 }
+.about_us {
+  background-image: url("/assets/images/background_3.png");
+  position: relative;
+  z-index: 4;
+  opacity: 100%;
+  &::before {
+    opacity: 5%;
+  }
+}
 
 
 

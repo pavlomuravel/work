@@ -1,0 +1,92 @@
+@use 'mixin' as *;
+@use"variables" as *;
+
+.main-content {
+  .main-content-statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    .content-statistic-item {
+      display: flex;
+      justify-content: center;
+      gap: 86px;
+      .content-statistic__item {
+        width: 262px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        .statistic__item-img {
+          svg {
+            width: 48px;
+            height: 48px;
+          }
+        }
+        .statistic__item-procent {
+          @include title;
+          font-size: 46px;
+          color: $primary;
+          margin-top: 12px;
+        }
+        .statistic__item-text {
+          @include text;
+          color: #1E212C;
+          text-align: center;
+        }
+      }
+    }
+    .content-statistic-citats {
+      width: 1230px;
+      display: flex;
+      justify-content: center;
+      border: black 1px solid;
+      .statistic-citats__img {
+        width: 525px;
+        height: 580px;
+        background-image: url("/./assets/images/man.png");
+      }
+      .statistic-citats__text {
+        width: 735px;
+        padding-top: 80px;
+        padding-right: 105px;
+        padding-left: 77px;
+        .citats__text-top {
+          display: flex;
+          gap: 30px;
+          .text-top__img {
+            svg {
+              width: 28px;
+              height: 20px;
+            }
+          }
+          .text-top__text {
+            p {
+              @include title;
+              font-size: 20px;
+            }
+            .margin {
+              margin-top: 40px;
+            }
+          }
+        }
+        .citats__text-button {
+          display: flex;
+          .text-button__name {
+            h3 {
+              @include title;
+              font-size: 16px;
+            }
+            p {
+              @include text;
+              color: #787A80;
+            }
+          }
+          .text-button__avtograf {
+            svg {}
+          }
+        }
+      }
+    }
+  }
+}
