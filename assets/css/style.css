@@ -99,7 +99,7 @@ table{
   line-height:160%;
 }
 .header .header__container-nav .header__nav .header__nav-list li a:hover{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .header .header__container-contakt{
   grid-area:header__contakt;
@@ -193,7 +193,7 @@ table{
   color:#424551;
 }
 .header-grey__service .header__container-services .container-services__nav .services__nav-homepage a:hover{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .header-grey__service .header__container-services .container-services__nav .services__nav-services a{
   font-family:"Ubuntu", sans-serif;
@@ -205,7 +205,7 @@ table{
   color:#424551;
 }
 .header-grey__service .header__container-services .container-services__nav .services__nav-services a:hover{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .header-grey__service .header__container-services .container-services__nav .active a{
   color:#9A9CA5;
@@ -466,7 +466,7 @@ table{
   font-weight:700;
 }
 .carousel .carousel__container .current .current-heder h1 span{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .carousel .carousel__container .current .current-heder p{
   color:white;
@@ -502,8 +502,8 @@ table{
   width:224px;
   height:52px;
   border-radius:4px;
-  background-color:rgba(255, 70, 21, 0.7);
-  border:1px solid rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
+  border:1px solid #FF5A30;
   margin-left:24px;
 }
 .carousel .carousel__container .current .current-heder .current-heder__button .button__ring:hover{
@@ -693,7 +693,7 @@ table{
   font-weight:700;
 }
 .header__container-carusel2 .carousel2 .carousel__container .current .current-heder h1 span{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .header__container-carusel2 .carousel2 .carousel__container .current .current-heder p{
   color:white;
@@ -729,8 +729,8 @@ table{
   width:224px;
   height:52px;
   border-radius:4px;
-  background-color:rgba(255, 70, 21, 0.7);
-  border:1px solid rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
+  border:1px solid #FF5A30;
   margin-left:24px;
 }
 .header__container-carusel2 .carousel2 .carousel__container .current .current-heder .current-heder__button .button__ring:hover{
@@ -779,7 +779,7 @@ table{
   width:110px;
   height:110px;
   opacity:100%;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 
 .main__container-construction{
@@ -1056,7 +1056,7 @@ table{
   font-size:14px;
   font-weight:700;
   letter-spacing:0.5px;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   color:#ffffff;
   border:none;
 }
@@ -1250,7 +1250,7 @@ table{
 .main__container-services .container-services__futer button{
   width:207px;
   height:52px;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   color:#fff;
   font-family:"Ubuntu", sans-serif;
   font-weight:400;
@@ -1320,7 +1320,7 @@ table{
   border-radius:100%;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-left:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-left:hover path{
   fill:#FFFFFF;
@@ -1340,13 +1340,13 @@ table{
   border-radius:100%;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-right:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-right:hover path{
   fill:#FFFFFF;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-aktiv{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main__container-projects .container-projects .container-projects__title .slider__controls .slider__controls-aktiv path{
   fill:#FFFFFF;
@@ -1458,17 +1458,17 @@ table{
   margin-top:24px;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .projects__item-button button{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   padding-inline:32px;
   height:42px;
   background-color:#FFFFFF;
-  border:1px solid rgba(255, 70, 21, 0.7);
+  border:1px solid #FF5A30;
   border-radius:4px;
   opacity:0;
 }
 .main__container-projects .container-projects .container-projects__item .projects__item .projects__item-button button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main__container-projects .container-projects .container-projects__futer{
   display:-webkit-box;
@@ -1497,7 +1497,7 @@ table{
   font-family:"Ubuntu", sans-serif;
   font-weight:400;
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   text-transform:uppercase;
   font-size:16px;
   letter-spacing:0.5px;
@@ -1622,7 +1622,7 @@ table{
   border-radius:100%;
 }
 .container-partners__coment .partners__coment-saing .coment-saing__text .saing__text-futer .text-futer__nav .futer__nav-left:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .container-partners__coment .partners__coment-saing .coment-saing__text .saing__text-futer .text-futer__nav .futer__nav-left:hover path{
   fill:#FFFFFF;
@@ -1631,7 +1631,7 @@ table{
   border-radius:100%;
 }
 .container-partners__coment .partners__coment-saing .coment-saing__text .saing__text-futer .text-futer__nav .futer__nav-ring:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .container-partners__coment .partners__coment-saing .coment-saing__text .saing__text-futer .text-futer__nav .futer__nav-ring:hover path{
   fill:#FFFFFF;
@@ -1786,7 +1786,7 @@ table{
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left:hover .conteiner__left-title h3{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-foto{
   width:705px;
@@ -1881,7 +1881,7 @@ table{
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring .news-conteiner:hover .conteiner-title h3{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring .news-conteiner .conteiner-foto{
   width:495px;
@@ -1971,7 +1971,7 @@ table{
   font-family:"Ubuntu", sans-serif;
   font-weight:400;
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   text-transform:uppercase;
   font-size:16px;
   letter-spacing:0.5px;
@@ -2096,16 +2096,16 @@ table{
   color:#787A80;
   font-weight:700;
   text-transform:uppercase;
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   padding-inline:32px;
   height:44px;
   background-color:#FFFFFF;
-  border:1px solid rgba(255, 70, 21, 0.7);
+  border:1px solid #FF5A30;
   border-radius:4px;
 }
 .main-content .container-services .services__item .services__item-text .item-text__button button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 
 .main-content{
@@ -2174,7 +2174,7 @@ table{
   padding:0;
 }
 .main-content .main-content__header .content__header-offer .header-offer__text .offer__text-accordion .accordion-item .accordion-header .icon{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   font-size:28px;
   width:20px;
   display:-webkit-box;
@@ -2239,7 +2239,7 @@ table{
   width:285px;
 }
 .main-content .main-content__header .content__header-thats .header-thats__text .thats__text-item:hover .text-item__namber .item__namber-namber{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   border:#FFF5F3 32px solid;
   background-color:#ffe2dc;
 }
@@ -2318,7 +2318,7 @@ table{
   font-size:16px;
 }
 .main-content .main-content__header .content__header-thats .header-thats__text .active .item__namber-namber{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   border:#FFF5F3 32px solid;
   background-color:#ffe2dc;
 }
@@ -2418,7 +2418,7 @@ table{
   font-weight:400;
   line-height:150%;
   color:#787A80;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   padding-inline:112px;
   height:52px;
   color:#FFFFFF;
@@ -3284,7 +3284,7 @@ table{
           justify-content:center;
 }
 .main-content .main__container-price .container-price__price .item__title-button-1 button{
-  border:rgba(255, 70, 21, 0.7) 1px solid;
+  border:#FF5A30 1px solid;
   font-family:"Ubuntu", sans-serif;
   font-size:46px;
   font-weight:700;
@@ -3293,7 +3293,7 @@ table{
   width:143px;
   height:36px;
   border-radius:4px;
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   background-color:#FFFFFF;
   text-transform:uppercase;
   font-size:12px;
@@ -3301,7 +3301,7 @@ table{
 }
 .main-content .main__container-price .container-price__price .item__title-button-1 button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content .main__container-price .container-price__price .item__title-button-2{
   grid-area:title-button-2;
@@ -3319,7 +3319,7 @@ table{
           justify-content:center;
 }
 .main-content .main__container-price .container-price__price .item__title-button-2 button{
-  border:rgba(255, 70, 21, 0.7) 1px solid;
+  border:#FF5A30 1px solid;
   font-family:"Ubuntu", sans-serif;
   font-size:46px;
   font-weight:700;
@@ -3328,7 +3328,7 @@ table{
   width:143px;
   height:36px;
   border-radius:4px;
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   background-color:#FFFFFF;
   text-transform:uppercase;
   font-size:12px;
@@ -3336,7 +3336,7 @@ table{
 }
 .main-content .main__container-price .container-price__price .item__title-button-2 button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content .main__container-price .container-price__price .item__title-button-3{
   grid-area:title-button-3;
@@ -3354,7 +3354,7 @@ table{
           justify-content:center;
 }
 .main-content .main__container-price .container-price__price .item__title-button-3 button{
-  border:rgba(255, 70, 21, 0.7) 1px solid;
+  border:#FF5A30 1px solid;
   font-family:"Ubuntu", sans-serif;
   font-size:46px;
   font-weight:700;
@@ -3363,7 +3363,7 @@ table{
   width:143px;
   height:36px;
   border-radius:4px;
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   background-color:#FFFFFF;
   text-transform:uppercase;
   font-size:12px;
@@ -3371,7 +3371,7 @@ table{
 }
 .main-content .main__container-price .container-price__price .item__title-button-3 button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content .main__container-price .container-partners__heder{
   margin-bottom:110px;
@@ -3434,7 +3434,7 @@ table{
   background-color:#FFFFFF;
 }
 .main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover .projekt-item__img svg path{
   fill:#FFFFFF;
@@ -3456,7 +3456,7 @@ table{
   color:#9A9CA5;
 }
 .main-content__work .main-content__projekt .content__projekt .projekt-item__active{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content__work .main-content__projekt .content__projekt .projekt-item__active .projekt-item__img svg path{
   fill:#FFFFFF;
@@ -3571,17 +3571,17 @@ table{
   margin-top:24px;
 }
 .main-content__work .container-projects__item .projects__item .projects__item-button button{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   padding-inline:32px;
   height:42px;
   background-color:#FFFFFF;
-  border:1px solid rgba(255, 70, 21, 0.7);
+  border:1px solid #FF5A30;
   border-radius:4px;
   opacity:0;
 }
 .main-content__work .container-projects__item .projects__item .projects__item-button button:hover{
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content__work .container-projects__item .projects__button{
   grid-area:projects__button;
@@ -3863,7 +3863,7 @@ table{
   line-height:130%;
   color:#1E212C;
   font-size:46px;
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
   margin-top:12px;
 }
 .main-content .main-content-statistic .content-statistic-item .content-statistic__item .statistic__item-text{
@@ -4082,14 +4082,14 @@ table{
   position:relative;
 }
 .main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item:hover .conteiner-item__dot{
-  border:4px solid rgba(255, 70, 21, 0.7);
+  border:4px solid #FF5A30;
   background-color:#ff2c00;
 }
 .main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item:hover .conteiner-item__dot svg circle{
-  fill:rgba(255, 70, 21, 0.7);
+  fill:#FF5A30;
 }
 .main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item:hover .conteiner-item__text p{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item .conteiner-item__dot{
   position:absolute;
@@ -4153,7 +4153,7 @@ table{
           justify-content:center;
 }
 .main-content .main-content__history .content__history-foto .data-foto__buton .foto__buton-left:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content .main-content__history .content__history-foto .data-foto__buton .foto__buton-left:hover svg path{
   fill:#FFFFFF;
@@ -4177,7 +4177,7 @@ table{
           justify-content:center;
 }
 .main-content .main-content__history .content__history-foto .data-foto__buton .foto__buton-ring:hover{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
 }
 .main-content .main-content__history .content__history-foto .data-foto__buton .foto__buton-ring:hover svg path{
   fill:#FFFFFF;
@@ -4460,7 +4460,7 @@ table{
           justify-content:end;
 }
 .main-content .main-content__team .content__team-conteiner .team-conteiner-item .conteiner-item__foto .item__foto-network{
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:rgba(255, 90, 48, 0.7);
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -4523,7 +4523,7 @@ table{
   color:#1E212C;
 }
 .main-content .main-content__team .content__team-informacion p a{
-  color:rgba(255, 70, 21, 0.7);
+  color:#FF5A30;
 }
 .main-content .main-content__worldwide{
   background-color:#F4F5F6;
@@ -4661,7 +4661,7 @@ table{
   height:16px;
 }
 .footer__conteiner .footer__conteiner-application .conteiner-application__input .application__input-checkbox label input[type=checkbox]{
-  accent-color:rgba(255, 70, 21, 0.7);
+  accent-color:#FF5A30;
 }
 .footer__conteiner .footer__conteiner-application .conteiner-application__input .application__input-button{
   display:-webkit-box;
@@ -4678,7 +4678,7 @@ table{
   font-family:"Ubuntu", sans-serif;
   font-weight:400;
   color:#FFFFFF;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   text-transform:uppercase;
   font-size:14px;
   letter-spacing:0.5px;
@@ -4802,7 +4802,7 @@ table{
 }
 .footer__conteiner .footer__conteiner-footer .conteiner-footer__logo .footer__logo-subscribe .logo-subscribe__input button{
   width:131px;
-  background-color:rgba(255, 70, 21, 0.7);
+  background-color:#FF5A30;
   font-family:"Ubuntu", sans-serif;
   font-size:46px;
   font-weight:700;
@@ -4814,7 +4814,7 @@ table{
   color:#fff;
   font-size:14px;
   padding-inline:25px;
-  border:2px solid rgba(255, 70, 21, 0.7);
+  border:2px solid #FF5A30;
 }
 .footer__conteiner .footer__conteiner-footer .conteiner-footer__logo .footer__logo-subscribe .logo-subscribe__input button:hover{
   border:2px solid #b83f1e;
