@@ -212,6 +212,7 @@
     height: 854px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     transform: rotate(180deg);
     opacity: 12%;
     z-index: 1;
@@ -225,6 +226,12 @@
   &::before {
     opacity: 5%;
   }
+}
+.available_positions {
+  background-image: url("/assets/images/background_4.png");
+  background-position: right bottom;
+
+
 }
 
 
