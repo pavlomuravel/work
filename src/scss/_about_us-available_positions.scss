@@ -3,6 +3,12 @@
 @use"variables" as *;
 
 .main-content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   .main-content__position {
     display: flex;
     justify-content: center;
@@ -203,4 +209,189 @@
       }
     }
   }
+}
+
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+
+  .modal__content {
+    width: 486px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    .modal__content-title {
+      @include title;
+      font-size: 28px;
+    }
+    .modal__content-input {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      @include text;
+      .content-input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        label {
+          color: #424551;
+          font-size: 14px;
+        }
+        input {
+          margin-top: 8px;
+          width: 390px;
+          background-color: #F4F5F6;
+          padding-block: 12px;
+          padding-inline: 16px;
+          color: #9A9CA5;
+          border: #D7DADD 1px solid ;
+          border-radius: 4px;
+          &:hover {
+            box-shadow:
+                    0px 4px 4px -4px #1E212C0D,
+                    0px 12px 10px -6px #1E212C14,
+                    0px 26px 24px -10px #1E212C1A,
+                    0px 60px 80px -20px #1E212C29;
+          }
+          &:focus {
+            border: 1px solid #FF5A30;
+            box-shadow: 4px 4px 10px #FF5A30;
+            border-radius: 3px;
+            outline: none;
+          }
+        }
+        select  {
+          width: 390px;
+          margin-top: 8px;
+          background-color: #F4F5F6;
+          padding-block: 12px;
+          padding-inline: 16px;
+          color: #9A9CA5;
+          border: #D7DADD 1px solid ;
+          border-radius: 4px;
+          background-image: url("/./assets/images/Down-chevron.svg");
+          background-position: right 16px center;
+          background-repeat: no-repeat;
+          appearance: none;
+          outline: none;
+          transition: 0.6ms ;
+          &:hover {
+            box-shadow:
+                    0px 4px 4px -4px #1E212C0D,
+                    0px 12px 10px -6px #1E212C14,
+                    0px 26px 24px -10px #1E212C1A,
+                    0px 60px 80px -20px #1E212C29;
+          }
+          &:focus {
+            border: 1px solid #FF5A30;
+            box-shadow: 4px 4px 10px #FF5A30;
+            border-radius: 3px;
+            outline: none;
+            transition: 0.6ms ;
+          }
+        }
+        textarea {
+          margin-top: 8px;
+          width: 390px;
+          background-color: #F4F5F6;
+          padding-block: 12px;
+          padding-inline: 16px;
+          color: #9A9CA5;
+          border: #D7DADD 1px solid ;
+          border-radius: 4px;
+          resize: none;
+          @include text;
+          &:hover {
+            box-shadow:
+                    0px 4px 4px -4px #1E212C0D,
+                    0px 12px 10px -6px #1E212C14,
+                    0px 26px 24px -10px #1E212C1A,
+                    0px 60px 80px -20px #1E212C29;
+          }
+          &:focus {
+            border: 1px solid #FF5A30;
+            box-shadow: 4px 4px 10px #FF5A30;
+            border-radius: 3px;
+            outline: none;
+          }
+
+        }
+        .input-file {
+          display: none;
+          position: relative;
+
+        }
+
+      }
+      .content-fille {
+        label {
+          display: flex;
+          gap: 12px;
+          &:hover {
+            color: $primary;
+          }
+          &:active {
+            color: #b83f1e;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+
+        }
+      }
+
+    }
+    .modal__content-button {
+      margin-top: 18px;
+      button {
+        width: 390px;
+        height: 44px;
+        @include title;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        border: 1px solid $primary ;
+        background-color: $primary;
+        color: #fff;
+        &:hover {
+          border: 2px solid #b83f1e;
+          box-shadow: 4px 4px 10px #FF5A30;
+        }
+        &:active {
+          background-color: #c63818;
+        }
+      }
+    }
+    .modal__content-clous {
+      position: absolute;
+      top: 28px;
+      right: 28px;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+.modal_subsckribe {
+  display: none;
+
+}
+.modal_send {
+  display: none;
 }

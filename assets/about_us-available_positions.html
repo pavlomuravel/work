@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The best Work)</title>
   <link rel="stylesheet" href="./css/style.min.css">
-  <script defer type="module" src="./js/work.js"></script>
+  <script defer type="module" src="./js/abaut_us.js"></script>
 </head>
 <body>
 <header class="header header-grey__service available_positions">
@@ -244,10 +244,10 @@
       </div>
       <div class="position-button__button">
         <div class="button__button-subscribe">
-          <button>Subscribe</button>
+          <button id="subscribe">Subscribe</button>
         </div>
         <div class="button__button-send">
-          <button>Send cv</button>
+          <button id="send">Send cv</button>
         </div>
       </div>
     </div>
@@ -512,5 +512,82 @@
     </div>
   </div>
 </footer>
+<div class="modal_subsckribe modal">
+  <div class="modal__content">
+    <div class="modal__content-title">
+      <h3>Subscribe to our newsletter</h3>
+    </div>
+    <div class="modal__content-input">
+      <div class="content-input ">
+        <label>Name*</label>
+        <input type="text" title="Name" placeholder="Your name*">
+      </div>
+      <div class="content-input">
+        <label>Email*</label>
+        <input type="email" title="Email" placeholder="Your working email*">
+      </div>
+    </div>
+    <div class="modal__content-button">
+      <button>send</button>
+    </div>
+    <div class="modal__content-clous">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7.99999 6.58578L14.2929 0.292893C14.6834 -0.0976313 15.3166 -0.0976307 15.7071 0.292894C16.0976 0.683418 16.0976 1.31658 15.7071 1.70711L9.41421 7.99999L15.7071 14.2929C16.0976 14.6834 16.0976 15.3166 15.7071 15.7071C15.3166 16.0976 14.6834 16.0976 14.2929 15.7071L7.99999 9.41421L1.70711 15.7071C1.31658 16.0976 0.683418 16.0976 0.292894 15.7071C-0.0976307 15.3166 -0.0976313 14.6834 0.292893 14.2929L6.58578 7.99999L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z" fill="#787A80"/>
+      </svg>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal_send modal">
+  <div class="modal__content">
+    <div class="modal__content-title">
+      <h3>Send your CV</h3>
+    </div>
+    <div class="modal__content-input">
+      <div class="content-input ">
+        <label>Name*</label>
+        <input type="text" title="Name" placeholder="Your name*">
+      </div>
+      <div class="content-input ">
+        <label>Location*</label>
+        <select name="location">
+          <option value="" disabled selected>Choose your location</option>
+          <option value="pl">Poland</option>
+          <option value="ua">Ukraine</option>
+          <option value="de">Germany</option>
+        </select>
+      </div>
+      <div class="content-input">
+        <label>Phone*</label>
+        <input type="tel" title="Phone" placeholder="Your phone number">
+      </div>
+      <div class="content-input">
+        <label>Email*</label>
+        <input type="email" title="Email" placeholder="Your working email*">
+      </div>
+      <div class="content-input text_messenger">
+        <label>Сovering letter</label>
+        <textarea name="message" placeholder="Your covering letter"></textarea>
+      </div>
+      <div class="content-input content-fille">
+        <label for="cv">
+          <img src="./images/attach.svg" alt="attachment">
+          <span>Attach your CV*</span>
+        </label>
+        <input class="input-file" id="cv" type="file">
+      </div>
+    </div>
+    <div class="modal__content-button">
+      <button>send</button>
+    </div>
+    <div class="modal__content-clous">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7.99999 6.58578L14.2929 0.292893C14.6834 -0.0976313 15.3166 -0.0976307 15.7071 0.292894C16.0976 0.683418 16.0976 1.31658 15.7071 1.70711L9.41421 7.99999L15.7071 14.2929C16.0976 14.6834 16.0976 15.3166 15.7071 15.7071C15.3166 16.0976 14.6834 16.0976 14.2929 15.7071L7.99999 9.41421L1.70711 15.7071C1.31658 16.0976 0.683418 16.0976 0.292894 15.7071C-0.0976307 15.3166 -0.0976313 14.6834 0.292893 14.2929L6.58578 7.99999L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z" fill="#787A80"/>
+      </svg>
+
+    </div>
+  </div>
+</div>
 </body>
 </html>
