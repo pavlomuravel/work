@@ -326,6 +326,11 @@ table{
   background-position:right bottom;
 }
 
+.news{
+  background-image:url(../images/background_5.png);
+  background-position:right bottom;
+}
+
 .header__container-carusel{
   background-color:#000000;
 }

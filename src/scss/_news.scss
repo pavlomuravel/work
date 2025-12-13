@@ -1,0 +1,46 @@
+@use 'mixin' as *;
+@use"variables" as *;
+
+
+.main-content {
+  .main-content__categories {
+    .content__categories-title {
+      h2 {}
+    }
+    .content__categories-button {
+      .categories-button__item {
+        p {}
+      }
+      .categories-button__item-aktiv {}
+    }
+    .content__categories-content {
+      .categories-content__item {
+        .content__item-foto {}
+        .content__item-title {
+          h3 {}
+        }
+        .content__item-informacion {
+          .item-informacion-tupe {
+            p {}
+          }
+          .item-informacion-line {
+            svg {}
+          }
+          .item-informacion-data {}
+          .item-informacion-coments {
+            svg {}
+            p {}
+          }
+        }
+        .content__item-text {
+          p {}
+        }
+      }
+    }
+    .content__categories-button {
+      .categories-button__item {
+        svg {}
+      }
+    }
+  }
+}
