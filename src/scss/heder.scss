@@ -32,6 +32,9 @@
             }
           }
         }
+        .nav-list__aktiv a {
+          color: $primary;
+        }
 
       }
     }
@@ -136,6 +139,7 @@
       h1 {
         @include title;
         font-size: 72px;
+        letter-spacing: 1px;
       }
     }
     .container-services__text {
@@ -236,6 +240,22 @@
 .news {
   background-image: url("/assets/images/background_5.png");
   background-position: right bottom;
+  .header__container-services {
+    padding-bottom: 239px;
+  }
+}
+.news-item {
+  background-image: none;
+  position: relative;
+  .header__container-services {
+    width: 1230px;
+    padding-bottom: 233px;
+    .container-services__title {
+      h1 {
+        font-size: 64px;
+      }
+    }
+  }
 }
 
 
