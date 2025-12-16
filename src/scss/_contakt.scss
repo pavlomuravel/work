@@ -1,0 +1,265 @@
+@use 'fonts' as *;
+@use 'mixin' as *;
+@use"variables" as *;
+
+.main-content__contakt {
+  .content__contakt-contact_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block:120px ;
+    .contakt-contact_us-conteiner {
+      .contact_us-conteiner__title {
+        text-align: center;
+        h2 {
+          @include title;
+        }
+        p {
+          margin-top: 24px;
+          @include text;
+        }
+      }
+      .contact_us-conteiner__contemt {
+        width: 1230px;
+        height: 586px;
+        margin-top: 60px;
+        display: flex;
+        gap: 135px;
+        .conteiner__content-img {
+          width: 495px;
+          height: 586px;
+          background-image: url("/./assets/images/contakt.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+        }
+        .conteiner__content-input {
+          width: 600px;
+          height: 584px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-areas:
+                  "contakt__input-name contakt__input-interested"
+                  "contakt__input-phone contakt__input-location"
+                  "contakt__input-email contakt__input-preferred"
+                  "contakt__input-message contakt__input-message"
+                  "contakt__input-button contakt__input-button";
+          grid-column-gap: 30px;
+          grid-row-gap: 24px;
+          .content-input__item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            label {
+              @include text;
+              color: #424551;
+              font-size: 16px;
+            }
+            input {
+              @include text;
+              font-size: 16px;
+              width: 285px;
+              height: 52px;
+              padding-left: 16px;
+              background-color: #F4F5F6;
+              border-radius: 4px;
+              border: 1px solid #D7DADD;
+            }
+            select {
+              @include text;
+              font-size: 16px;
+              color: #424551;
+              width: 285px;
+              height: 52px;
+              padding-inline: 16px;
+              background-color: #F4F5F6;
+              border-radius: 4px;
+              border: 1px solid #D7DADD;
+              background-image: url("/./assets/images/Down-chevron.svg");
+              background-position: right 16px center;
+              background-repeat: no-repeat;
+              appearance: none;
+              outline: none;
+              transition: 0.6ms ;
+              &:hover {
+                box-shadow:
+                        0px 4px 4px -4px #1E212C0D,
+                        0px 12px 10px -6px #1E212C14,
+                        0px 26px 24px -10px #1E212C1A,
+                        0px 60px 80px -20px #1E212C29;
+              }
+              &:focus {
+                border: 1px solid #FF5A30;
+                box-shadow: 4px 4px 10px #FF5A30;
+                border-radius: 3px;
+                outline: none;
+                transition: 0.6ms ;
+              }
+            }
+
+            button {
+              width: 210px;
+              height: 52px;
+              @include title;
+              font-size: 14px;
+              letter-spacing: 0.5px;
+              text-transform: uppercase;
+              border-radius: 4px;
+              border: 1px solid $primary ;
+              background-color: $primary;
+              color: #fff;
+              &:hover {
+                border: 2px solid #b83f1e;
+                box-shadow: 4px 4px 10px #FF5A30;
+              }
+              &:active {
+                background-color: #c63818;
+              }
+            }
+            textarea {
+              resize: none;
+              width: 600px;
+              height: 128px;
+              @include text;
+              font-size: 16px;
+              padding-left: 16px;
+              padding-top: 13px;
+              border-radius: 4px;
+              background-color: #F4F5F6;
+              border: 1px solid #D7DADD;
+              &:hover {
+                box-shadow:
+                        0px 4px 4px -4px #1E212C0D,
+                        0px 12px 10px -6px #1E212C14,
+                        0px 26px 24px -10px #1E212C1A,
+                        0px 60px 80px -20px #1E212C29;
+              }
+              &:focus {
+                border: 1px solid #FF5A30;
+                box-shadow: 4px 4px 10px #FF5A30;
+                border-radius: 3px;
+                outline: none;
+              }
+            }
+          }
+
+
+          .contakt__input-name {
+            grid-area: contakt__input-name;
+            input {
+              &:hover {
+                box-shadow:
+                        0px 4px 4px -4px #1E212C0D,
+                        0px 12px 10px -6px #1E212C14,
+                        0px 26px 24px -10px #1E212C1A,
+                        0px 60px 80px -20px #1E212C29;
+              }
+              &:focus {
+                border: 1px solid #FF5A30;
+                box-shadow: 4px 4px 10px #FF5A30;
+                border-radius: 3px;
+                outline: none;
+              }
+            }
+          }
+          .contakt__input-phone {
+            grid-area: contakt__input-phone;
+            input {
+              &:hover {
+                box-shadow:
+                        0px 4px 4px -4px #1E212C0D,
+                        0px 12px 10px -6px #1E212C14,
+                        0px 26px 24px -10px #1E212C1A,
+                        0px 60px 80px -20px #1E212C29;
+              }
+              &:focus {
+                border: 1px solid #FF5A30;
+                box-shadow: 4px 4px 10px #FF5A30;
+                border-radius: 3px;
+                outline: none;
+              }
+            }
+          }
+          .contakt__input-email {
+            grid-area: contakt__input-email;
+            input {
+              &:hover {
+                box-shadow:
+                        0px 4px 4px -4px #1E212C0D,
+                        0px 12px 10px -6px #1E212C14,
+                        0px 26px 24px -10px #1E212C1A,
+                        0px 60px 80px -20px #1E212C29;
+              }
+              &:focus {
+                border: 1px solid #FF5A30;
+                box-shadow: 4px 4px 10px #FF5A30;
+                border-radius: 3px;
+                outline: none;
+              }
+            }
+          }
+          .contakt__input-message {
+            grid-area: contakt__input-message;
+
+          }
+          .contakt__input-interested {
+            grid-area: contakt__input-interested;
+          }
+          .contakt__input-location {
+            grid-area: contakt__input-location;
+          }
+          .contakt__input-preferred {
+            grid-area: contakt__input-preferred;
+            display: flex;
+            gap: 20px;
+            .contakt__input-radio {
+              .radio_grup {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                .radio {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 8px;
+                }
+              }
+            }
+            input {
+              width: 16px;
+              height: 16px;
+              accent-color: $primary;
+            }
+          }
+          .contakt__input-button {
+            grid-area: contakt__input-button;
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            justify-content: space-between;
+            width: 100%;
+
+            .contakt__input-checkbox {
+              max-width: 315px;
+
+              .input-checkbox {
+                display: flex;
+                gap: 12px;
+                align-items: flex-start;
+
+                input {
+                  width: 16px;
+                  height: 16px;
+                  accent-color: $primary;
+                }
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+}

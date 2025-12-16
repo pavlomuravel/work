@@ -59,7 +59,7 @@
       justify-content: end;
       position: relative;
       .statistic-citats__img {
-        z-index: -1;
+        z-index: 0;
         width: 525px;
         height: 580px;
         position: absolute;
@@ -70,6 +70,7 @@
 
       }
       .statistic-citats__text {
+        z-index: 1;
         background-color: #FFFFFF;
         width: 735px;
         height: 570px;
@@ -125,6 +126,7 @@
   }
   .main-content__values {
     background-color: #F4F5F6;
+    width: 100%;
     .container-construction__futer {
       padding-top: 180px;
       display: flex;

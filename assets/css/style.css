@@ -350,6 +350,11 @@ table{
   font-size:64px;
 }
 
+.header-contakt{
+  background-image:url(../images/background_6.png);
+  background-position:right bottom;
+}
+
 .header__container-carusel{
   background-color:#000000;
 }
@@ -2361,6 +2366,7 @@ table{
 }
 .main-content .main-content__informetion{
   background-color:#1E212C;
+  width:100%;
   height:550px;
   padding-top:80px;
   display:-webkit-box;
@@ -3923,7 +3929,7 @@ table{
   position:relative;
 }
 .main-content .main-content-statistic .content-statistic-citats .statistic-citats__img{
-  z-index:-1;
+  z-index:0;
   width:525px;
   height:580px;
   position:absolute;
@@ -3931,6 +3937,7 @@ table{
   left:0;
 }
 .main-content .main-content-statistic .content-statistic-citats .statistic-citats__text{
+  z-index:1;
   background-color:#FFFFFF;
   width:735px;
   height:570px;
@@ -3990,6 +3997,7 @@ table{
 }
 .main-content .main-content__values{
   background-color:#F4F5F6;
+  width:100%;
 }
 .main-content .main-content__values .container-construction__futer{
   padding-top:180px;
@@ -4983,7 +4991,7 @@ table{
   background-color:#F4F5F6;
   padding-block:12px;
   padding-inline:16px;
-  color:#9A9CA5;
+  color:#424551;
   border:#D7DADD 1px solid;
   border-radius:4px;
   background-image:url(../images/Down-chevron.svg);
@@ -5864,6 +5872,304 @@ table{
 }
 .main-content .main-content__new-item .content__new-item-input .new-item-input__button button:active{
   background-color:#c63818;
+}
+
+.main-content__contakt .content__contakt-contact_us{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding-block:120px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__title{
+  text-align:center;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__title h2{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__title p{
+  margin-top:24px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt{
+  width:1230px;
+  height:586px;
+  margin-top:60px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:135px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-img{
+  width:495px;
+  height:586px;
+  background-image:url(../images/contakt.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input{
+  width:600px;
+  height:584px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:"contakt__input-name contakt__input-interested" "contakt__input-phone contakt__input-location" "contakt__input-email contakt__input-preferred" "contakt__input-message contakt__input-message" "contakt__input-button contakt__input-button";
+  grid-column-gap:30px;
+  grid-row-gap:24px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  gap:8px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item label{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#424551;
+  font-size:16px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item input{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:16px;
+  width:285px;
+  height:52px;
+  padding-left:16px;
+  background-color:#F4F5F6;
+  border-radius:4px;
+  border:1px solid #D7DADD;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item select{
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:16px;
+  color:#424551;
+  width:285px;
+  height:52px;
+  padding-inline:16px;
+  background-color:#F4F5F6;
+  border-radius:4px;
+  border:1px solid #D7DADD;
+  background-image:url(../images/Down-chevron.svg);
+  background-position:right 16px center;
+  background-repeat:no-repeat;
+  -webkit-appearance:none;
+     -moz-appearance:none;
+          appearance:none;
+  outline:none;
+  -webkit-transition:0.6ms;
+  transition:0.6ms;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item select:hover{
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item select:focus{
+  border:1px solid #FF5A30;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+  border-radius:3px;
+  outline:none;
+  -webkit-transition:0.6ms;
+  transition:0.6ms;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item button{
+  width:210px;
+  height:52px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:14px;
+  letter-spacing:0.5px;
+  text-transform:uppercase;
+  border-radius:4px;
+  border:1px solid #FF5A30;
+  background-color:#FF5A30;
+  color:#fff;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item button:hover{
+  border:2px solid #b83f1e;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item button:active{
+  background-color:#c63818;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item textarea{
+  resize:none;
+  width:600px;
+  height:128px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:16px;
+  padding-left:16px;
+  padding-top:13px;
+  border-radius:4px;
+  background-color:#F4F5F6;
+  border:1px solid #D7DADD;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item textarea:hover{
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .content-input__item textarea:focus{
+  border:1px solid #FF5A30;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+  border-radius:3px;
+  outline:none;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-name{
+  grid-area:contakt__input-name;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-name input:hover{
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-name input:focus{
+  border:1px solid #FF5A30;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+  border-radius:3px;
+  outline:none;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-phone{
+  grid-area:contakt__input-phone;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-phone input:hover{
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-phone input:focus{
+  border:1px solid #FF5A30;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+  border-radius:3px;
+  outline:none;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-email{
+  grid-area:contakt__input-email;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-email input:hover{
+  -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+          box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(30, 33, 44, 0.0784313725), 0px 26px 24px -10px rgba(30, 33, 44, 0.1019607843), 0px 60px 80px -20px rgba(30, 33, 44, 0.1607843137);
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-email input:focus{
+  border:1px solid #FF5A30;
+  -webkit-box-shadow:4px 4px 10px #FF5A30;
+          box-shadow:4px 4px 10px #FF5A30;
+  border-radius:3px;
+  outline:none;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-message{
+  grid-area:contakt__input-message;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-interested{
+  grid-area:contakt__input-interested;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-location{
+  grid-area:contakt__input-location;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-preferred{
+  grid-area:contakt__input-preferred;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:20px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-preferred .contakt__input-radio .radio_grup{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:24px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-preferred .contakt__input-radio .radio_grup .radio{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:8px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-preferred input{
+  width:16px;
+  height:16px;
+  accent-color:#FF5A30;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-button{
+  grid-area:contakt__input-button;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  -webkit-box-align:end;
+      -ms-flex-align:end;
+          align-items:end;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  width:100%;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-button .contakt__input-checkbox{
+  max-width:315px;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-button .contakt__input-checkbox .input-checkbox{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  gap:12px;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
+}
+.main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt .conteiner__content-input .contakt__input-button .contakt__input-checkbox .input-checkbox input{
+  width:16px;
+  height:16px;
+  accent-color:#FF5A30;
 }
 
 .footer__conteiner .footer__conteiner-application{
