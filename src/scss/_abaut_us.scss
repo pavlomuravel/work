@@ -213,7 +213,9 @@
             display: flex;
             align-items: center;
             position: relative;
+            transition: color 0.3s ease, transform 0.3s ease;
             &:hover {
+              transform: translateY(-4px);
               .conteiner-item__dot {
                 border: 4px solid $primary;
                 background-color: #ff2c00;
@@ -337,6 +339,7 @@
       p {
         margin-top: 24px;
         @include text;
+        font-size: 18px;
       }
     }
     .content__partners-item {
@@ -517,7 +520,9 @@
         align-items: center;
         justify-content: center;
         gap: 16px;
+        transition: color 0.3s ease, transform 0.3s ease;
         &:hover {
+          transform: translateY(-4px);
           .conteiner-item__foto {
             .item__foto-network {
               opacity: 1;
@@ -593,6 +598,7 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    width: 100%;
     .content__worldwide-title {
       h2 {
         @include title;

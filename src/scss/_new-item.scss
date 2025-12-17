@@ -62,7 +62,9 @@
             display: flex;
             gap: 12px;
             .data__network-item {
+              transition: color 0.3s ease, transform 0.3s ease;
               &:hover {
+                transform: translateY(-4px);
                 a svg {
                   path {
                     fill: $primary;
@@ -128,7 +130,9 @@
           align-items: center;
           gap: 12px;
           a {
+            transition: color 0.3s ease, transform 0.3s ease;
             &:hover {
+              transform: translateY(-4px);
               .text-share-item {
                 svg {
                   path {
@@ -223,7 +227,9 @@
               gap: 8px;
               align-items: center;
               text-decoration: none;
+              transition: color 0.3s ease, transform 0.3s ease;
               &:hover {
+                transform: translateY(-2px);
                 .comment__reply-img {
                   svg {
                     path {

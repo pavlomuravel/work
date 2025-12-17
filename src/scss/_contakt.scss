@@ -17,6 +17,7 @@
         p {
           margin-top: 24px;
           @include text;
+          font-size: 18px;
         }
       }
       .contact_us-conteiner__contemt {
@@ -259,6 +260,145 @@
           }
 
         }
+      }
+    }
+  }
+  .content__contakt-offices {
+    background-color: #F4F5F6 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 80px;
+    .contakt-offices__title {
+      h2 {
+        text-align: center;
+        @include title;
+      }
+      p {
+        margin-top: 24px;
+        @include text;
+        font-size: 18px;
+      }
+    }
+    .contakt-offices__conteiner {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 120px;
+      .offices__conteiner-item {
+        width: 250px;
+        .conteiner-item__neme {
+          h3 {
+            @include title;
+            font-size: 28px;
+          }
+        }
+        .conteiner-item__adres {
+          margin-top: 24px;
+          @include text;
+          color: #1E212C;
+          font-size: 16px;
+          a {
+            margin-top: 4px;
+            @include text;
+            color: $primary;
+            font-size: 16px;
+            &:hover {
+             color: #ff0000;
+            }
+            &:active {
+              color: #c63818;
+            }
+          }
+        }
+        .conteiner-item__contackt {
+          margin-top: 20px;
+          @include text;
+          color: #787A80;
+          font-size: 16px;
+          span {
+            color: #1E212C;
+            margin-left: 4px;
+          }
+
+        }
+      }
+
+    }
+  }
+  .content__contakt-find_us {
+    padding-top: 40px;
+    padding-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #F4F5F6;
+    .contakt-find_us-title {
+      h2 {
+        @include title;
+      }
+    }
+    .contakt-find_us-conteiner {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      a {
+        svg {
+          width: 32px;
+          height: 32px;
+        }
+      }
+      .item-whatsapp {
+        transition: color 0.3s ease, transform 0.3s ease;
+        &:hover {
+          transform: translateY(-2px);
+          svg path {
+            fill: #25D366;
+          }
+        }
+
+      }
+      .item-messenger {
+        transition: color 0.3s ease, transform 0.3s ease;
+        &:hover {
+          transform: translateY(-2px);
+          svg path {
+            fill: #0084FF;
+          }
+        }
+
+      }
+      .item-facebook {
+        transition: color 0.3s ease, transform 0.3s ease;
+        &:hover {
+          transform: translateY(-2px);
+          svg path {
+            fill:  #1877F2;
+          }
+        }
+
+      }
+      .item-twitter {
+        transition: color 0.3s ease, transform 0.3s ease;
+        &:hover {
+          transform: translateY(-2px);
+          svg path {
+            fill: #1DA1F2;
+          }
+        }
+
+      }
+      .item-youtube {
+        transition: color 0.3s ease, transform 0.3s ease;
+        &:hover {
+          transform: translateY(-2px);
+          svg path {
+            fill: #FF0000;
+          }
+        }
+
       }
     }
   }

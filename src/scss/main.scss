@@ -495,8 +495,10 @@
                 0px 12px 10px -6px #9A9CA50A,
                 0px 30px 24px -10px #9A9CA50D,
                 0px 80px 80px -20px #9A9CA514;
+        transition: color 0.3s ease, transform 0.3s ease;
 
         &:hover {
+          transform: translateY(-4px);
           .projects__item-img {
             height: 277px;
             transition: 300ms;
@@ -852,7 +854,9 @@
                 0px 12px 10px -6px #9A9CA50A,
                 0px 30px 24px -10px #9A9CA50D,
                 0px 80px 80px -20px #9A9CA514;
+        transition: color 0.3s ease, transform 0.3s ease;
         &:hover {
+          transform: translateY(-4px);
           .conteiner__left-title {
             h3 {
               color: $primary;
@@ -928,7 +932,9 @@
                   0px 12px 10px -6px #9A9CA50A,
                   0px 30px 24px -10px #9A9CA50D,
                   0px 80px 80px -20px #9A9CA514;
+          transition: color 0.3s ease, transform 0.3s ease;
           &:hover {
+            transform: translateY(-4px);
             .conteiner-title {
               h3 {
                 color: $primary;

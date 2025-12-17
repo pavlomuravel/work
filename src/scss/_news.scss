@@ -33,7 +33,9 @@
           border: none;
           background-color: #ffffff;
         }
+        transition: color 0.3s ease, transform 0.3s ease;
         &:hover {
+          transform: translateY(-4px);
           button {
             color: $primary;
           }
@@ -71,8 +73,9 @@
                 0px 12px 10px -6px #9A9CA50A,
                 0px 30px 24px -10px #9A9CA50D,
                 0px 80px 80px -20px #9A9CA514;
-
+        transition: color 0.3s ease, transform 0.3s ease;
         &:hover {
+          transform: translateY(-6px);
           .content__item-title {
             h3 {
               color: $primary;
@@ -182,11 +185,15 @@
     .content__categories-button {
       margin-top: 60px;
       display: flex;
-      gap: 20px;
+      gap: 10px;
       align-items: center;
       justify-content: center;
       .categories-button__item {
+        width: 20px;
+        height: 20px;
+        transition: color 0.3s ease, transform 0.3s ease;
         &:hover {
+          transform: translateY(-4px);
           a {
             color: $primary;
             svg path{

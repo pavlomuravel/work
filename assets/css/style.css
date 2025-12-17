@@ -1416,6 +1416,15 @@ table{
           justify-content:flex-start;
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main__container-projects .container-projects .container-projects__item .projects__item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main__container-projects .container-projects .container-projects__item .projects__item:hover .projects__item-img{
   height:277px;
@@ -1823,6 +1832,15 @@ table{
   border-radius:4px;
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left:hover .conteiner__left-title h3{
   color:#FF5A30;
@@ -1921,6 +1939,15 @@ table{
   height:255px;
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring .news-conteiner:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring .news-conteiner:hover .conteiner-title h3{
   color:#FF5A30;
@@ -3475,8 +3502,15 @@ table{
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
   background-color:#FFFFFF;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover{
+  -webkit-transform:translateY(-6px);
+      -ms-transform:translateY(-6px);
+          transform:translateY(-6px);
   background-color:#FF5A30;
 }
 .main-content__work .main-content__projekt .content__projekt .content__projekt-item:hover .projekt-item__img svg path{
@@ -3536,6 +3570,15 @@ table{
           justify-content:flex-start;
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.0509803922), 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725), 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843), 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__work .container-projects__item .projects__item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content__work .container-projects__item .projects__item:hover .projects__item-img{
   height:277px;
@@ -4125,6 +4168,15 @@ table{
       -ms-flex-align:center;
           align-items:center;
   position:relative;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content .main-content__history .content__history-data .history-data__content .data-timeline__conteiner .conteiner-item:hover .conteiner-item__dot{
   border:4px solid #FF5A30;
@@ -4281,6 +4333,7 @@ table{
   font-weight:400;
   line-height:150%;
   color:#787A80;
+  font-size:18px;
 }
 .main-content .main-content__partners .content__partners-item{
   margin-top:60px;
@@ -4483,6 +4536,15 @@ table{
       -ms-flex-pack:center;
           justify-content:center;
   gap:16px;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__team .content__team-conteiner .team-conteiner-item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content .main-content__team .content__team-conteiner .team-conteiner-item:hover .conteiner-item__foto .item__foto-network{
   opacity:1;
@@ -4585,6 +4647,7 @@ table{
       -ms-flex-align:center;
           align-items:center;
   gap:60px;
+  width:100%;
 }
 .main-content .main-content__worldwide .content__worldwide-title h2{
   font-family:"Ubuntu", sans-serif;
@@ -5149,6 +5212,10 @@ table{
   -webkit-box-pack:center;
       -ms-flex-pack:center;
           justify-content:center;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .main-content .main-content__categories .content__categories-filters .categories-filters__item button{
   font-family:"Ubuntu", sans-serif;
@@ -5163,6 +5230,11 @@ table{
   border-radius:4px;
   border:none;
   background-color:#ffffff;
+}
+.main-content .main-content__categories .content__categories-filters .categories-filters__item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content .main-content__categories .content__categories-filters .categories-filters__item:hover button{
   color:#FF5A30;
@@ -5191,6 +5263,15 @@ table{
   border-radius:4px;
   -webkit-box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
           box-shadow:0px 4px 4px -4px rgba(30, 33, 44, 0.031372549), 0px 12px 10px -6px rgba(154, 156, 165, 0.0392156863), 0px 30px 24px -10px rgba(154, 156, 165, 0.0509803922), 0px 80px 80px -20px rgba(154, 156, 165, 0.0784313725);
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__categories .content__categories-content .categories-content__item:hover{
+  -webkit-transform:translateY(-6px);
+      -ms-transform:translateY(-6px);
+          transform:translateY(-6px);
 }
 .main-content .main-content__categories .content__categories-content .categories-content__item:hover .content__item-title h3{
   color:#FF5A30;
@@ -5323,13 +5404,26 @@ table{
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
-  gap:20px;
+  gap:10px;
   -webkit-box-align:center;
       -ms-flex-align:center;
           align-items:center;
   -webkit-box-pack:center;
       -ms-flex-pack:center;
           justify-content:center;
+}
+.main-content .main-content__categories .content__categories-button .categories-button__item{
+  width:20px;
+  height:20px;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__categories .content__categories-button .categories-button__item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content .main-content__categories .content__categories-button .categories-button__item:hover a{
   color:#FF5A30;
@@ -5464,6 +5558,17 @@ table{
   display:flex;
   gap:12px;
 }
+.main-content .main-content__new-item .main-content__new-item__absolute .content__new-item-heder .new-item-heder__network-data .heder__network-data__network .data__network-item{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__new-item .main-content__new-item__absolute .content__new-item-heder .new-item-heder__network-data .heder__network-data__network .data__network-item:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
+}
 .main-content .main-content__new-item .main-content__new-item__absolute .content__new-item-heder .new-item-heder__network-data .heder__network-data__network .data__network-item:hover a svg path{
   fill:#FF5A30;
 }
@@ -5540,6 +5645,17 @@ table{
       -ms-flex-align:center;
           align-items:center;
   gap:12px;
+}
+.main-content .main-content__new-item .content__new-item-text .item-text-share .text-share a{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__new-item .content__new-item-text .item-text-share .text-share a:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
 }
 .main-content .main-content__new-item .content__new-item-text .item-text-share .text-share a:hover .text-share-item svg path{
   fill:#FF5A30;
@@ -5670,6 +5786,15 @@ table{
       -ms-flex-align:center;
           align-items:center;
   text-decoration:none;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content .main-content__new-item .content__new-item-comment .item-comment-conteiner .item-comment-conteiner__item .conteiner__item-comment .item-comment__reply a:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
 }
 .main-content .main-content__new-item .content__new-item-comment .item-comment-conteiner .item-comment-conteiner__item .conteiner__item-comment .item-comment__reply a:hover .comment__reply-img svg path{
   fill:#FF5A30;
@@ -5904,6 +6029,7 @@ table{
   font-weight:400;
   line-height:150%;
   color:#787A80;
+  font-size:18px;
 }
 .main-content__contakt .content__contakt-contact_us .contakt-contact_us-conteiner .contact_us-conteiner__contemt{
   width:1230px;
@@ -6171,6 +6297,207 @@ table{
   height:16px;
   accent-color:#FF5A30;
 }
+.main-content__contakt .content__contakt-offices{
+  background-color:#F4F5F6;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding-block:80px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__title h2{
+  text-align:center;
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__title p{
+  margin-top:24px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  font-size:18px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner{
+  margin-top:60px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:120px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item{
+  width:250px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__neme h3{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+  font-size:28px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__adres{
+  margin-top:24px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#1E212C;
+  font-size:16px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__adres a{
+  margin-top:4px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#FF5A30;
+  font-size:16px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__adres a:hover{
+  color:#ff0000;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__adres a:active{
+  color:#c63818;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__contackt{
+  margin-top:20px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:150%;
+  color:#787A80;
+  color:#787A80;
+  font-size:16px;
+}
+.main-content__contakt .content__contakt-offices .contakt-offices__conteiner .offices__conteiner-item .conteiner-item__contackt span{
+  color:#1E212C;
+  margin-left:4px;
+}
+.main-content__contakt .content__contakt-find_us{
+  padding-top:40px;
+  padding-bottom:95px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:40px;
+  background-color:#F4F5F6;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-title h2{
+  font-family:"Ubuntu", sans-serif;
+  font-size:46px;
+  font-weight:700;
+  line-height:130%;
+  color:#1E212C;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  gap:24px;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner a svg{
+  width:32px;
+  height:32px;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-whatsapp{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-whatsapp:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-whatsapp:hover svg path{
+  fill:#25D366;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-messenger{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-messenger:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-messenger:hover svg path{
+  fill:#0084FF;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-facebook{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-facebook:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-facebook:hover svg path{
+  fill:#1877F2;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-twitter{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-twitter:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-twitter:hover svg path{
+  fill:#1DA1F2;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-youtube{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-youtube:hover{
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
+}
+.main-content__contakt .content__contakt-find_us .contakt-find_us-conteiner .item-youtube:hover svg path{
+  fill:#FF0000;
+}
 
 .footer__conteiner .footer__conteiner-application{
   height:826px;
@@ -6353,9 +6680,16 @@ table{
 }
 .footer__conteiner .footer__conteiner-footer .conteiner-footer__logo .footer__logo-informacion .logo-informacion__informacion .logo-informacion__network ul li a svg{
   opacity:60%;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .footer__conteiner .footer__conteiner-footer .conteiner-footer__logo .footer__logo-informacion .logo-informacion__informacion .logo-informacion__network ul li a svg:hover{
   opacity:100%;
+  -webkit-transform:translateY(-2px);
+      -ms-transform:translateY(-2px);
+          transform:translateY(-2px);
 }
 .footer__conteiner .footer__conteiner-footer .conteiner-footer__logo .footer__logo-informacion .logo-informacion__informacion .logo-informacion__network ul li a svg path{
   fill:#FFFFFF;
