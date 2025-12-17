@@ -15,14 +15,19 @@
 @use "new-item";
 @use "contakt";
 @use "footer";
+@use "media";
 
 
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  min-width: 1320px;
+  min-width: 360px;
+
 }
 
 
