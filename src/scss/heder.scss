@@ -11,11 +11,11 @@
   position: relative;
 
   .header__container-logo {
-    grid-area: header__logo;
+    grid-area: header__container-logo;
   }
   .header__container-nav {
+    grid-area: header__container-nav;
     .header__nav {
-      grid-area: header__nav;
       .header__nav-list{
         display: flex;
         gap: 40px;
@@ -44,7 +44,7 @@
     }
   }
   .header__container-contakt {
-    grid-area: header__contakt;
+    grid-area: header__container-contakt;
     display: flex;
     gap: 36px;
     padding-left: 112px;
@@ -122,7 +122,7 @@
   grid-template-columns:130px 447px 533px;
   grid-template-rows: 88px 512px;
   grid-template-areas:
-    " header__logo header__nav header__contakt "
+    " header__container-logo header__container-nav header__container-contakt "
     " header__services header__services header__services ";
   column-gap: 60px;
   justify-content: center;
@@ -132,7 +132,6 @@
   background-position: right;
   padding-top: 0;
   padding-bottom: 0;
-  min-width: 1230px;
   margin: 0 auto;
   overflow: hidden;
   .header__container-contakt {
