@@ -80,9 +80,11 @@ table{
 }
 .header .header__container-logo{
   grid-area:header__container-logo;
+  z-index:4;
 }
 .header .header__container-nav{
   grid-area:header__container-nav;
+  z-index:4;
 }
 .header .header__container-nav .header__nav .header__nav-list{
   display:-webkit-box;
@@ -117,6 +119,7 @@ table{
   color:#FF5A30;
 }
 .header .header__container-contakt{
+  z-index:4;
   grid-area:header__container-contakt;
   display:-webkit-box;
   display:-ms-flexbox;
@@ -412,7 +415,8 @@ table{
 }
 .carousel .carousel__container{
   width:100%;
-  height:90vh;
+  max-height:90vh;
+  aspect-ratio:16/9;
   position:relative;
   -webkit-box-shadow:4px 4px 10px black;
           box-shadow:4px 4px 10px black;
@@ -530,11 +534,14 @@ table{
 }
 .carousel .carousel__container .current{
   position:absolute;
-  top:220px;
-  left:345px;
-  right:500px;
-  width:100%;
-  z-index:0;
+  top:52%;
+  left:33%;
+  -webkit-transform:translate(-50%, -50%);
+      -ms-transform:translate(-50%, -50%);
+          transform:translate(-50%, -50%);
+  z-index:2;
+  max-width:600px;
+  width:90%;
 }
 .carousel .carousel__container .current .current-heder{
   width:600px;
@@ -7045,6 +7052,9 @@ body{
         -ms-flex-pack:end;
             justify-content:end;
   }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:62px;
+  }
   .footer__conteiner .application__conteiner-content{
     padding-inline:20px;
   }
@@ -7093,8 +7103,25 @@ body{
             align-items:end;
     padding-right:10px;
   }
+  .header-grey__service .header__container-services .container-services__title{
+    -webkit-backdrop-filter:blur(5px);
+            backdrop-filter:blur(5px);
+  }
+  .header-grey__service .header__container-services .container-services__text{
+    -webkit-backdrop-filter:blur(5px);
+            backdrop-filter:blur(5px);
+  }
   .header-grey__service .header__container-services .container-services__text p{
     color:#1e212c;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current{
+    left:50%;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:52px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current__button{
+    margin-top:100px;
   }
 }
 
@@ -7138,6 +7165,7 @@ body{
     grid-template-columns:1fr 1fr;
     grid-template-areas:"header__container-logo  header__container-contakt" "header__container-nav header__container-contakt" "header__services header__services";
     grid-row-gap:clamp(12px, 2vw, 30px);
+    background-size:cover;
   }
   .header-grey__service .header__container-nav{
     min-width:0;
@@ -7147,6 +7175,12 @@ body{
     -webkit-box-pack:justify;
         -ms-flex-pack:justify;
             justify-content:space-between;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:42px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder p{
+    font-size:18px;
   }
 }
 
@@ -7185,6 +7219,21 @@ body{
     gap:0;
     padding-left:15px;
   }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:37px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder p{
+    font-size:17px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__left{
+    font-size:14px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__ring{
+    font-size:14px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current__button{
+    margin-top:60px;
+  }
 }
 
 @media (max-width: 680px){
@@ -7214,6 +7263,48 @@ body{
   .header-grey__service .header__container-services{
     width:100%;
   }
+  .main-conten .header__container-carusel .carousel .carousel__container .carousel__container-left{
+    padding-inline:0;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .carousel__container-left .carousel__container-content{
+    font-size:45px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .carousel__container-right{
+    padding-inline:0;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .carousel__container-right .carousel__container-content{
+    font-size:45px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder{
+    width:100%;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:30px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder p{
+    font-size:14px;
+    margin-bottom:36px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__left{
+    font-size:12px;
+    height:36px;
+    width:200px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__ring{
+    font-size:12px;
+    height:36px;
+    width:200px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current__button{
+    margin-top:30px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current__button .active{
+    height:6px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current__button .current__button-item h3{
+    font-size:16px;
+    margin-top:-22px;
+  }
 }
 
 @media (max-width: 500px){
@@ -7238,6 +7329,25 @@ body{
   }
   .header-grey__service .header__container-services .container-services__text p{
     font-size:16px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:25px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder p{
+    font-size:10px;
+    margin-bottom:12px;
+    margin-top:12px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__left{
+    font-size:10px;
+    height:26px;
+    width:150px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__ring{
+    font-size:10px;
+    height:26px;
+    width:150px;
+    margin-left:10px;
   }
   .footer__conteiner .footer__conteiner-content .conteiner-footer .conteiner-footer__address{
     display:grid;
@@ -7284,6 +7394,25 @@ body{
 }
 
 @media (max-width: 430px){
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder h1{
+    font-size:18px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder p{
+    font-size:8px;
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__left{
+    font-size:8px;
+    height:22px;
+    width:150px;
+  }
+  .main-conten .header__container-carusel .carousel .carousel__container .current .current-heder .current-heder__button .button__ring{
+    font-size:8px;
+    height:22px;
+    width:150px;
+    margin-left:10px;
+  }
   .footer__conteiner .application__conteiner-content{
     padding-inline:10px;
   }

@@ -20,6 +20,21 @@
       justify-content: end;
     }
   }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+          .current {
+            .current-heder {
+              h1 {
+                font-size: 62px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 
 
@@ -77,9 +92,32 @@
       padding-right: 10px;
     }
     .header__container-services {
+      .container-services__title {
+        backdrop-filter: blur(5px);
+      }
       .container-services__text {
+        backdrop-filter: blur(5px);
         p {
           color: #1e212c;
+        }
+      }
+    }
+  }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+          .current {
+            left: 50% ;
+            .current-heder {
+              h1 {
+                font-size: 52px;
+              }
+            }
+            .current__button {
+              margin-top: 100px;
+            }
+          }
         }
       }
     }
@@ -91,6 +129,7 @@
     .header__container-contakt {
     }
   }
+
   .footer__conteiner {
     .footer__conteiner-content {
       .conteiner-footer {
@@ -136,6 +175,7 @@
     "header__container-nav header__container-contakt"
     "header__services header__services";
      grid-row-gap: clamp(12px, 2vw, 30px);
+    background-size: cover;
     .header__container-nav {
       min-width: 0;
       .header__nav {
@@ -143,6 +183,24 @@
           gap: 0;
           justify-content: space-between;
 
+        }
+      }
+    }
+  }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+          .current {
+            .current-heder {
+              h1 {
+                font-size: 42px;
+              }
+              p {
+                font-size: 18px;
+              }
+            }
+          }
         }
       }
     }
@@ -177,6 +235,37 @@
       justify-content: start;
       gap: 0;
       padding-left: 15px;
+    }
+  }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+          .current {
+            .current-heder {
+              h1 {
+                font-size: 37px;
+              }
+              p {
+                font-size: 17px;
+              }
+              .current-heder__button {
+                .button__left {
+                  font-size: 14px;
+                  }
+
+                .button__ring {
+                  font-size: 14px;
+                }
+              }
+
+            }
+            .current__button {
+              margin-top: 60px;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -219,6 +308,65 @@
       width: 100%;
     }
   }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+          .carousel__container-left {
+            padding-inline: 0;
+            .carousel__container-content {
+              font-size: 45px;
+            }
+          }
+          .carousel__container-right {
+            padding-inline: 0;
+            .carousel__container-content {
+              font-size: 45px;
+            }
+          }
+          .current {
+            .current-heder {
+              width: 100%;
+              h1 {
+                font-size: 30px;
+              }
+              p {
+                font-size: 14px;
+                margin-bottom: 36px;
+              }
+              .current-heder__button {
+                .button__left {
+                  font-size: 12px;
+                  height: 36px;
+                  width: 200px;
+                }
+
+                .button__ring {
+                  font-size: 12px;
+                  height: 36px;
+                  width: 200px;
+                }
+              }
+
+            }
+            .current__button {
+              margin-top: 30px;
+              .active {
+                height: 6px;
+              }
+              .current__button-item {
+                h3 {
+                  font-size: 16px;
+                  margin-top: -22px;
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
   
 }
 @media (max-width: 500px) {
@@ -249,6 +397,53 @@
       .container-services__text {
         p {
           font-size: 16px;
+        }
+      }
+    }
+  }
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+
+          .current {
+            .current-heder {
+              h1 {
+                font-size: 25px;
+              }
+              p {
+                font-size: 10px;
+                margin-bottom: 12px;
+                margin-top: 12px;
+              }
+              .current-heder__button {
+                .button__left {
+                  font-size: 10px;
+                  height: 26px;
+                  width: 150px;
+                }
+
+                .button__ring {
+                  font-size: 10px;
+                  height: 26px;
+                  width: 150px;
+                  margin-left: 10px;
+                }
+              }
+
+            }
+            .current__button {
+              .active {
+
+              }
+              .current__button-item {
+                h3 {
+
+                }
+              }
+
+            }
+          }
         }
       }
     }
@@ -290,6 +485,42 @@
   }
 }
 @media (max-width: 430px) {
+  .main-conten {
+    .header__container-carusel {
+      .carousel {
+        .carousel__container {
+
+          .current {
+            .current-heder {
+              h1 {
+                font-size: 18px;
+              }
+              p {
+                font-size: 8px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+              }
+              .current-heder__button {
+                .button__left {
+                  font-size: 8px;
+                  height: 22px;
+                  width: 150px;
+                }
+
+                .button__ring {
+                  font-size: 8px;
+                  height: 22px;
+                  width: 150px;
+                  margin-left: 10px;
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
   .footer__conteiner {
     .application__conteiner-content {
       padding-inline: 10px;

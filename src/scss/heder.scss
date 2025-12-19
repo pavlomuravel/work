@@ -12,9 +12,11 @@
 
   .header__container-logo {
     grid-area: header__container-logo;
+    z-index: 4;
   }
   .header__container-nav {
     grid-area: header__container-nav;
+    z-index: 4;
     .header__nav {
       .header__nav-list{
         display: flex;
@@ -44,6 +46,7 @@
     }
   }
   .header__container-contakt {
+    z-index: 4;
     grid-area: header__container-contakt;
     display: flex;
     gap: 36px;
