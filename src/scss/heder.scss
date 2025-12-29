@@ -233,9 +233,9 @@
   grid-template-columns:130px 447px 533px;
   grid-template-rows: 88px 218px 620px;
   grid-template-areas:
-    " header__logo header__nav header__contakt "
+    " header__container-logo header__container-nav header__container-contakt "
     " header__services header__services header__services "
-    " header__carusel header__carusel header__carusel";
+    " header__carusel-2 header__carusel-2 header__carusel-2";
   .header__container-services {
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@
     padding-bottom: 0;
   }
   .header__container-carusel2 {
-    grid-area: header__carusel;
+    grid-area: header__carusel-2;
   }
 
 

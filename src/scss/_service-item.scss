@@ -247,6 +247,222 @@
        }
      }
    }
+   .main__container-projects {
+
+     .container-projects {
+       padding-block: 120px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       .container-projects__title {
+         display: flex;
+         h3 {
+           @include title;
+           width: 702px;
+         }
+         .slider__controls {
+           display: flex;
+           align-items: flex-end;
+           margin-left: 453px;
+
+           .slider__controls-left {
+             width: 48px;
+             height: 48px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             border-radius: 100%;
+             &:hover {
+               background-color: $primary;
+               path {
+                 fill: #FFFFFF;
+               }
+             }
+           }
+           .slider__controls-right {
+             width: 48px;
+             height: 48px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             border-radius: 100%;
+             &:hover {
+               background-color: $primary;
+               path {
+                 fill: #FFFFFF;
+               }
+             }
+           }
+           .slider__controls-aktiv {
+             background-color: $primary;
+             path {
+               fill: #FFFFFF;
+             }
+             &:hover {
+               path {
+                 fill: #424551;
+               }
+             }
+           }
+         }
+       }
+       .container-projects__item {
+         display: flex;
+         margin-top: 60px;
+         gap: 30px;
+         height: 440px;
+         .projects__item {
+           overflow: hidden;
+           border-radius: 4px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: flex-start;
+           box-shadow:
+                   0px 4px 4px -4px #1E212C08,
+                   0px 12px 10px -6px #9A9CA50A,
+                   0px 30px 24px -10px #9A9CA50D,
+                   0px 80px 80px -20px #9A9CA514;
+           transition: color 0.3s ease, transform 0.3s ease;
+
+           &:hover {
+             transform: translateY(-4px);
+             .projects__item-img {
+               height: 277px;
+               transition: 300ms;
+             }
+             .projects__item-button {
+               button {
+                 opacity: 100%;
+                 transition: 300ms;
+               }
+             }
+           }
+           .item_1 {
+             background-image: url("/assets/images/projekt_1.png");
+             background-position: center;
+           }
+           .item_2 {
+             background-image: url("/assets/images/projekt_2.png");
+             background-position: center;
+           }
+           .item_3 {
+             background-image: url("/assets/images/projekt_3.png");
+             background-position: center;
+           }
+           .item_4 {
+             background-image: url("/assets/images/projekt_4.png");
+             background-position: center;
+           }
+           .item_5 {
+             background-image: url("/assets/images/projekt_5.png");
+             background-position: center;
+           }
+           .item_6 {
+             background-image: url("/assets/images/projekt_6.png");
+             background-position: center;
+           }
+           .item_7 {
+             background-image: url("/assets/images/projekt_7.png");
+             background-position: center;
+           }
+           .item_8 {
+             background-image: url("/assets/images/projekt_8.png");
+             background-position: center;
+           }
+           .item_9 {
+             background-image: url("/assets/images/projekt_9.png");
+             background-position: center;
+
+           }
+
+
+           .projects__item-img {
+             width: 390px;
+             height: 345px;
+
+
+             img {
+               width: 100%;
+               height: 100%;
+             }
+           }
+           .projects__item-title {
+             margin-top: 16px;
+             h3 {
+               @include title;
+               font-size: 20px;
+             }
+           }
+           .projects__item-text {
+             p {
+               margin-top: 4px;
+               @include text;
+             }
+           }
+           .projects__item-button {
+             margin-top: 24px;
+
+
+             button {
+               color: $primary;
+               padding-inline: 32px;
+               height: 42px;
+               background-color: #FFFFFF;
+               border: 1px solid $primary;
+               border-radius: 4px;
+               opacity: 0;
+               &:hover {
+                 color: #FFFFFF;
+                 background-color: $primary;
+
+
+
+               }
+             }
+           }
+
+
+         }
+
+       }
+       .container-projects__futer {
+         display: flex;
+         margin-top: 85px;
+         gap: 40px;
+         justify-content: center;
+         align-items: center;
+         .projects__futer-title {
+           h3 {
+             @include title;
+             font-size: 25px;
+           }
+         }
+         .projects__futer-button {
+           button {
+             width: 224px;
+             height: 52px;
+             @include primeritext;
+             color: #FFFFFF;
+             background-color: $primary;
+             text-transform: uppercase;
+             font-size: 16px;
+             letter-spacing: 0.5px;
+             font-weight: 700;
+             border-radius: 4px;
+             border: none;
+             &:hover {
+               border: 2px solid #b83f1e;
+               box-shadow: 4px 4px 10px #FF5A30;
+             }
+             &:active {
+               background-color: #c63818;
+             }
+           }
+         }
+       }
+     }
+   }
    .main__container-price {
      display: flex;
      flex-direction: column;
@@ -255,6 +471,7 @@
      padding-top: 80px;
      position: relative;
      overflow: hidden;
+     width: 100%;
      &::before {
        content: "";
        background-image: url("assets/images/bg.png");

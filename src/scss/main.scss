@@ -2,14 +2,13 @@
 @use"variables" as *;
 
 
-.main-conten {
+.main-content__main {
   overflow: hidden;
   .main__container-construction {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 120px;
-    padding-bottom: 270px;
     overflow: hidden;
     position: relative;
 
@@ -109,7 +108,7 @@
       position: absolute;
       left: auto;
       right: auto;
-      bottom: 1038px;
+      bottom: 798px;
       background-color: #ffffff;
       padding-inline: 60px;
       padding-block: 48px;
@@ -450,15 +449,22 @@
       align-items: center;
       .container-projects__title {
         display: flex;
+        align-items: end;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1235px;
         h3 {
           @include title;
-          width: 702px;
+          max-width: 702px;
+          width: 100%;
         }
         .slider__controls {
           display: flex;
           align-items: flex-end;
-          margin-left: 453px;
-
+          justify-content: end;
+          max-width: 96px;
+          width: 100%;
+          gap: 3px;
           .slider__controls-left {
             width: 48px;
             height: 48px;
@@ -503,8 +509,10 @@
       .container-projects__item {
         display: flex;
         margin-top: 60px;
-        gap: 30px;
-        height: 440px;
+        justify-content: space-between;
+        max-width: 1230px;
+        gap: 5px;
+        width: 100%;
         .projects__item {
           overflow: hidden;
           border-radius: 4px;
@@ -512,6 +520,8 @@
           flex-direction: column;
           align-items: center;
           justify-content: flex-start;
+          height: 440px;
+          max-width: 390px;
           box-shadow:
                   0px 4px 4px -4px #1E212C08,
                   0px 12px 10px -6px #9A9CA50A,
@@ -526,10 +536,8 @@
               transition: 300ms;
             }
             .projects__item-button {
-              button {
-                opacity: 100%;
-                transition: 300ms;
-              }
+              margin-bottom: 24px;
+              transition: 300ms;
             }
           }
           .item_1 {
@@ -595,7 +603,8 @@
             }
           }
           .projects__item-button {
-            margin-top: 24px;
+            margin-top: 28px;
+            margin-bottom: -55px;
 
 
             button {
@@ -605,7 +614,6 @@
               background-color: #FFFFFF;
               border: 1px solid $primary;
               border-radius: 4px;
-              opacity: 0;
               &:hover {
                 color: #FFFFFF;
                 background-color: $primary;
@@ -664,8 +672,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-inline: 20px;
 
     .container-partners__heder {
+      max-width: 1230px;
+      width: 100%;
       .partners__heder-title {
         h3 {
           @include title;
@@ -673,17 +684,25 @@
         }
       }
       .partners__heder-client {
+
         display: flex;
-        gap: 120px;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin-top: 60px;
+        .heder-client__logo {
+          min-width: 120px;
+        }
       }
     }
 
   }
   .container-partners__coment {
     display: flex;
-    gap: 135px;
+    gap: 20px;
+    justify-content: space-between;
     margin-top: 170px;
+    max-width: 1230px;
+    width: 100%;
     .partners__coment-saing {
       width: 600px;
       .coment-saing__title {
@@ -757,10 +776,8 @@
     .partners__coment-foto {
       width: 495px;
       height: 550px;
-      img {
-        width: 100%;
-        height: 100%;
-      }
+      background-image: url("/assets/images/client.png");
+      background-position: center;
     }
   }
   .main__container-facks {

@@ -228,6 +228,86 @@
     background-color: #F4F5F6;
     display: flex;
     justify-content: center;
+    gap: 135px;
+    margin-top: 50px;
+    .partners__coment-saing {
+      width: 600px;
+      .coment-saing__title {
+        h3 {
+          @include title;
+        }
+      }
+      .coment-saing__text {
+        margin-top: 60px;
+        .saing__text-foto {
+          img {
+            border-radius: 100%;
+          }
+        }
+        .saing__text-coment {
+          margin-top: 24px;
+          p {
+            @include text;
+            color: #424551;
+            font-size: 16px;
+          }
+        }
+        .saing__text-futer {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 24px;
+          .text-futer__name {
+            .futer__name-name {
+              h4 {
+                @include title;
+                font-size: 16px;
+              }
+            }
+            .futer__name-posishin {
+              p {
+                @include text;
+                font-size: 14px;
+                color: #787A80;
+              }
+            }
+          }
+          .text-futer__nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            .futer__nav-left {
+              border-radius: 100%;
+              &:hover {
+                background-color: $primary;
+                path {
+                  fill: #FFFFFF;
+                }
+              }
+            }
+            .futer__nav-ring {
+              border-radius: 100%;
+              &:hover {
+                background-color: $primary;
+
+                path {
+                  fill: #FFFFFF;
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+    .partners__coment-foto {
+      width: 495px;
+      height: 550px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
   .container-partners__heder {
     padding-top: 180px;
