@@ -198,6 +198,22 @@
         }
       }
     }
+    .main__container-facks {
+      .container-facks__news {
+        .facks__news-conteiner {
+          flex-direction: column;
+          .news-conteiner__ring {
+            a {
+              .news-conteiner {
+                aspect-ratio: 47 / 36;
+                max-width: 705px;
+              }
+            }
+          }
+        }
+      }
+
+    }
   }
 
   .footer__conteiner {
@@ -363,6 +379,16 @@
           }
         }
       }
+      .container-partners__coment {
+        margin-top: 100px;
+        .partners__coment-saing {
+          .coment-saing__title {
+            h3 {
+              font-size: 40px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -379,6 +405,19 @@
                   "projects__item-4"
                   "projects__item-5"
                   "projects__item-6";
+        }
+      }
+    }
+    .main__container-partners {
+      height: 100%;
+      padding-bottom: 80px;
+      .container-partners__coment {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .partners__coment-saing {
+          width: 100%;
+          padding-inline: 20px;
         }
       }
     }
@@ -739,6 +778,44 @@
           h3 {
             font-size: 25px;
           }
+        }
+      }
+      .container-partners__coment {
+        .partners__coment-saing {
+          .coment-saing__title {
+            h3 {
+              font-size: 25px;
+            }
+          }
+          .coment-saing__text {
+            margin-top: 30px;
+            .saing__text-coment {
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        .partners__coment-foto {
+          height: 100%;
+          width: 100%;
+          aspect-ratio: 3 / 3;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+    .main__container-facks {
+      .container-facks__heder {
+        padding-top: 100px;
+        .facks__heder-title {
+          h2 {
+            font-size: 25px;
+          }
+        }
+        .facks__heder-progress {
+          justify-content: center;
+          gap: 30px;
         }
       }
     }
