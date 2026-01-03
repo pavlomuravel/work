@@ -880,6 +880,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      max-width: 1270px;
+      width: 100%;
       padding-inline: 20px;
       .facks__news-title {
         h3 {
@@ -889,10 +891,9 @@
       .facks__news-conteiner {
         margin-top: 60px;
         display: flex;
-        gap: 30px;
-        max-width: 1230px;
+        gap: 10px;
         width: 100%;
-        border: #1e212c solid 1px;
+        justify-content: space-between;
         a {
           text-decoration: none;
         }
@@ -1038,6 +1039,16 @@
               }
 
 
+            }
+            .conteiner__ring-text {
+              margin-top: 16px;
+              padding-inline: 24px;
+              display: none;
+              p {
+                @include text;
+                color: #424551;
+                font-size: 16px;
+              }
             }
           }
         }
