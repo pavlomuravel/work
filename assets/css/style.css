@@ -7730,7 +7730,7 @@ html{
 }
 
 body{
-  min-width:360px;
+  min-width:340px;
 }
 
 @media (max-width: 1300px){
@@ -8132,6 +8132,22 @@ body{
   }
   .main-content__main .main__container-construction .container-construction__futer{
     padding-top:60px;
+    padding-bottom:0;
+  }
+  .main-content__main .main__container-construction .container-construction__ask{
+    position:static;
+  }
+  .main-content__main .main__container-construction .main__container-services{
+    padding-top:60px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-text{
+    padding-bottom:20px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner{
+    aspect-ratio:auto;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner__ring-text{
+    padding-bottom:20px;
   }
 }
 
@@ -8230,9 +8246,6 @@ body{
   .main-content__main .main__container-construction .container-construction__title p{
     font-size:12px;
   }
-  .main-content__main .main__container-construction .container-construction__futer{
-    padding-bottom:400px;
-  }
   .main-content__main .main__container-construction .container-construction__futer h3{
     font-size:25px;
   }
@@ -8258,9 +8271,6 @@ body{
   .main-content__main .main__container-construction .container-construction__futer .futer-item__conteiner .item__conteiner-line-1{
     display:none;
   }
-  .main-content__main .main__container-construction .container-construction__ask{
-    bottom:863px;
-  }
   .main-content__main .main__container-construction .container-construction__ask .ask-title h3{
     font-size:23px;
   }
@@ -8273,9 +8283,6 @@ body{
   }
   .main-content__main .main__container-construction .container-construction__ask .ask-input .ask-input__message{
     place-items:normal;
-  }
-  .main-content__main .main__container-construction .main__container-services{
-    padding-top:245px;
   }
   .main-content__main .main__container-construction .main__container-services .container-services__title h2{
     font-size:25px;
@@ -8541,6 +8548,44 @@ body{
   }
   .main-content__main .main__container-projects .container-projects .container-projects__item .projects__item .projects__item-img{
     width:340px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-title{
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-title h3{
+    font-size:18px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-informacion{
+    gap:0;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-text{
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__left .conteiner__left-text p{
+    font-size:14px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner-title{
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner-title h3{
+    font-size:18px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner-informacion{
+    gap:0;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner__ring-text{
+    padding-inline:10px;
+  }
+  .main-content__main .main__container-facks .container-facks__news .facks__news-conteiner .news-conteiner__ring a .news-conteiner .conteiner__ring-text p{
+    font-size:14px;
   }
   .footer__conteiner .application__conteiner-content{
     padding-inline:10px;

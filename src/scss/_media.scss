@@ -512,8 +512,34 @@
       padding-top: 60px;
       .container-construction__futer {
         padding-top: 60px;
+        padding-bottom: 0;
+      }
+      .container-construction__ask {
+        position: static;
+      }
+      .main__container-services {
+        padding-top: 60px;
       }
 
+    }
+    .main__container-facks {
+      .container-facks__news {
+        .facks__news-conteiner {
+          .news-conteiner__left {
+            .conteiner__left-text {
+              padding-bottom: 20px;
+            }
+          }
+          .news-conteiner__ring a {
+            .news-conteiner {
+              aspect-ratio: auto;
+              .conteiner__ring-text {
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
     }
 
   }
@@ -653,7 +679,6 @@
         }
       }
       .container-construction__futer {
-        padding-bottom: 400px;
         h3 {
           font-size: 25px;
         }
@@ -684,7 +709,6 @@
         }
       }
       .container-construction__ask {
-        bottom: 863px;
         .ask-title {
           h3 {
             font-size: 23px;
@@ -706,7 +730,6 @@
         }
       }
       .main__container-services {
-        padding-top: 245px;
         .container-services__title {
           h2 {
             font-size: 25px;
@@ -1064,6 +1087,52 @@
           .projects__item {
             .projects__item-img {
               width: 340px;
+            }
+          }
+        }
+      }
+    }
+    .main__container-facks {
+      .container-facks__news {
+        .facks__news-conteiner {
+          .news-conteiner__left {
+            .conteiner__left-title {
+              padding-inline: 10px;
+              h3 {
+                font-size: 18px;
+              }
+            }
+            .conteiner__left-informacion {
+              gap: 0;
+              justify-content: space-between;
+              padding-inline: 10px;
+            }
+            .conteiner__left-text {
+              padding-inline: 10px;
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+          .news-conteiner__ring a {
+            .news-conteiner {
+              .conteiner-title {
+                padding-inline: 10px;
+                h3 {
+                  font-size: 18px;
+                }
+              }
+              .conteiner-informacion {
+                gap: 0;
+                justify-content: space-between;
+                padding-inline: 10px;
+              }
+              .conteiner__ring-text {
+                padding-inline: 10px;
+                p {
+                  font-size: 14px;
+                }
+              }
             }
           }
         }
