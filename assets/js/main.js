@@ -76,3 +76,16 @@ document.querySelectorAll(".progress__item").forEach((item) => {
 });
 
 
+
+const burgerNav = document.getElementById("burger");
+const nav = document.querySelector(".container-burger__nav")
+const navClose = document.querySelector(".header__nav-close");
+
+burgerNav.addEventListener("click", () => {
+  nav.classList.add("active");
+})
+
+navClose.addEventListener('click', (e) => {
+  e.stopPropagation();
+  nav.classList.remove('active');
+});

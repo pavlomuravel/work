@@ -166,13 +166,11 @@ table{
   height:100%;
   top:0;
   right:0;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
   -webkit-box-align:center;
       -ms-flex-align:center;
           align-items:center;
   display:none;
+  z-index:10;
 }
 .header .header__container-burger .container-burger{
   border-radius:8px;
@@ -188,6 +186,91 @@ table{
 }
 .header .header__container-burger .container-burger:hover svg path{
   stroke:#FF5A30;
+}
+.header .header__container-burger .container-burger__nav{
+  border:#1e212c 1px solid;
+  position:absolute;
+  height:410px;
+  width:300px;
+  top:-5px;
+  right:-340px;
+  background-color:rgba(0, 0, 0, 0.8);
+  z-index:10;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  border-radius:6px;
+  -webkit-transition:right 0.4s ease;
+  transition:right 0.4s ease;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  gap:40px;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list li{
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list li:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list li a{
+  text-decoration:none;
+  color:#ffffff;
+  font-family:"Ubuntu", sans-serif;
+  font-weight:400;
+  font-size:20px;
+  font-weight:700;
+  line-height:160%;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list li a:hover{
+  color:#FF5A30;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav .header__nav-list .nav-list__aktiv a{
+  color:#FF5A30;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav-close{
+  position:absolute;
+  top:15px;
+  right:15px;
+  -webkit-transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, -webkit-transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease;
+  transition:color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav-close:hover{
+  -webkit-transform:translateY(-4px);
+      -ms-transform:translateY(-4px);
+          transform:translateY(-4px);
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav-close:hover svg path{
+  fill:#FF5A30;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav-close svg{
+  width:25px;
+  height:25px;
+}
+.header .header__container-burger .container-burger__nav .burger__nav-conteiner .header__nav-close svg path{
+  fill:#ffffff;
+}
+.header .header__container-burger .container-burger__nav.active{
+  right:0;
 }
 .header .header__container-burger .container-burger__aktive{
   background-color:#FF5A30;
@@ -7731,6 +7814,7 @@ html{
 
 body{
   min-width:340px;
+  overflow-x:hidden;
 }
 
 @media (max-width: 1300px){
