@@ -160,6 +160,32 @@
     }
 
   }
+  .main-content {
+    padding-top: 80px;
+    .main-content-statistic {
+      gap: 60px;
+      .content-statistic-item {
+        gap: 40px;
+        .content-statistic__item {
+          .statistic__item-procent {
+            font-size: 32px;
+            margin-top: 0;
+          }
+        }
+      }
+      .content-statistic-citats {
+        .statistic-citats__text {
+          .citats__text-top {
+            .text-top__text {
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 @media (max-width: 1030px) {
@@ -228,6 +254,16 @@
         }
       }
 
+    }
+  }
+  .main-content {
+    .main-content-statistic {
+      .content-statistic-citats {
+        padding-left: 405px;
+        .statistic-citats__img {
+          max-width: 450px;
+        }
+      }
     }
   }
 
@@ -406,6 +442,31 @@
       }
     }
   }
+  .main-content {
+    .main-content-statistic {
+      .content-statistic-citats {
+        padding-left: 315px;
+        .statistic-citats__img {
+          max-width: 385px;
+        }
+        .statistic-citats__text {
+          .citats__text-top {
+            .text-top__img {
+              svg {
+                width: 25px;
+                height: 17px;
+              }
+            }
+            .text-top__text {
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 810px) {
   .main-content__main {
@@ -542,6 +603,20 @@
       }
     }
 
+  }
+  .main-content {
+    .main-content-statistic {
+      .content-statistic-citats {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        .statistic-citats__img {
+          background-position: top;
+          position: static;
+          aspect-ratio: 525 / 580;
+        }
+      }
+    }
   }
 
 }
@@ -884,6 +959,15 @@
 
     }
   }
+  .main-content {
+    .main-content-statistic {
+      .content-statistic-item {
+        .content-statistic__item {
+          width: 159px;
+        }
+      }
+    }
+  }
   
 }
 @media (max-width: 500px) {
@@ -984,6 +1068,25 @@
       .container-projects {
         .container-projects__item {
           padding-inline: 20px;
+        }
+      }
+    }
+  }
+  .main-content {
+    .main-content-statistic {
+      .content-statistic-citats {
+        .statistic-citats__text {
+          .citats__text-top {
+            .text-top__img svg{
+              width: 18px;
+              height: 10px;
+            }
+            .text-top__text {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
         }
       }
     }

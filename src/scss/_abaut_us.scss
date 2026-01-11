@@ -11,6 +11,9 @@
     gap: 120px;
     padding-bottom: 240px;
     overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    padding-inline: 20px;
     &::before {
       content: '';
       background-image: url("/./assets/images/bg.png");
@@ -26,14 +29,20 @@
     }
     .content-statistic-item {
       display: flex;
-      justify-content: center;
-      gap: 86px;
+      justify-content: space-between;
+      max-width: 1230px;
+      width: 100%;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      place-content: center;
       .content-statistic__item {
         width: 262px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 8px;
+        text-align: center;
         .statistic__item-img {
           svg {
             width: 48px;
@@ -54,29 +63,37 @@
       }
     }
     .content-statistic-citats {
-      width: 1230px;
+      max-width: 1230px;
+      width: 100%;
       display: flex;
       justify-content: end;
       position: relative;
+      padding-left: 495px;
       .statistic-citats__img {
         z-index: 0;
-        width: 525px;
-        height: 580px;
+        max-width: 525px;
+        max-height: 580px;
+        width: 100%;
+        height: 100%;
         position: absolute;
         top: 120px;
         left: 0;
-
-
+        background-image: url('/./assets/images/team_1.png');
+        background-position: center;
 
       }
       .statistic-citats__text {
         z-index: 1;
         background-color: #FFFFFF;
-        width: 735px;
-        height: 570px;
-        padding-top: 80px;
-        padding-right: 105px;
-        padding-left: 77px;
+        max-width: 735px;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 20px;
+        padding-block: 80px;
         box-shadow:
                 0px 4px 4px -4px  #1E212C0D,
                 0px 12px 10px -6px #9A9CA514,
@@ -84,7 +101,10 @@
                 0px 80px 80px -20px #9A9CA529;
         .citats__text-top {
           display: flex;
-          gap: 30px;
+          max-width: 553px;
+          width: 100%;
+          justify-content: space-between;
+          gap: 10px;
           .text-top__img {
             svg {
               width: 28px;
@@ -103,10 +123,12 @@
         }
         .citats__text-button {
           display: flex;
-          gap: 144px;
+          gap: 10px;
           align-items: center;
           margin-top: 60px;
-          margin-left: 58px;
+          max-width: 512px;
+          width: 100%;
+          justify-content: space-between;
           .text-button__name {
             h3 {
               @include title;
